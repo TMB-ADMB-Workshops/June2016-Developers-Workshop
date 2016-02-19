@@ -2,7 +2,7 @@
 
 *June 20 - 24, 2016*
 
-* School of Aquatic and Fisheries Sciences*
+*School of Aquatic and Fisheries Sciences*
 
 *Seattle, Washington, USA*
 
