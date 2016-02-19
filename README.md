@@ -14,16 +14,16 @@ Friday
 
 #Participants
 |name|notes|
-|---|
-|John Sibert|
-|Jim Ianelli|
-|Steve Martell|
-|Anders Nielsen|
-|Hans Skaug|
-|Arni Magnusson|
+|---|---|
+|John Sibert||
+|Jim Ianelli||
+|Steve Martell||
+|Anders Nielsen||
+|Hans Skaug||
+|Arni Magnusson||
 |Kasper Kristensen| Developer TMB | 
 |Brad Bell| Developer cppad |
-|Mollie Brooks|
+|Mollie Brooks||
 |Matthew Supernaw| Developer atl |
-|Teresa Amar|
-|Johnoel Ancheta|
+|Teresa Amar||
+|Johnoel Ancheta||
