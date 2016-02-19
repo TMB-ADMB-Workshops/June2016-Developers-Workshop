@@ -1,38 +1,46 @@
-#Developers Workshop 2016
+***Developers Workshop 2016***
 
 *June 20 - 24, 2016*
 
+* School of Aquatic and Fisheries Sciences*
 *Seattle, Washington, USA*
+
+Contact Jim.Ianelli@noaa.gov for registration and questions.
 
 #Objectives
 
 #Schedule
 
-*Monday*
+_Monday_
+
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
 |5:00PM|End|
 
-*Tuesday*
+_Tuesday_
+
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
 |5:00PM|End|
 
-*Wednesday*
+_Wednesday_
+
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
 |5:00PM|End|
 
-*Thursday*
+_Thursday_
+
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
 |5:00PM|End|
 
-*Friday*
+_Friday_
+
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
