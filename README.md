@@ -1,19 +1,45 @@
-Developers Workshop 2016
-June 20 - 24, 2016
-Seattle, Washington, USA
+#Developers Workshop 2016
+
+*June 20 - 24, 2016*
+
+*Seattle, Washington, USA*
 
 #Objectives
 
 #Schedule
 
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
+*Monday*
+|Time|Activity|
+|---|---|
+|9:00AM|Start|
+|5:00PM|End|
+
+*Tuesday*
+|Time|Activity|
+|---|---|
+|9:00AM|Start|
+|5:00PM|End|
+
+*Wednesday*
+|Time|Activity|
+|---|---|
+|9:00AM|Start|
+|5:00PM|End|
+
+*Thursday*
+|Time|Activity|
+|---|---|
+|9:00AM|Start|
+|5:00PM|End|
+
+*Friday*
+|Time|Activity|
+|---|---|
+|9:00AM|Start|
+|5:00PM|End|
 
 #Participants
-|name|notes|
+|Name|Notes|
 |---|---|
 |John Sibert||
 |Jim Ianelli||
