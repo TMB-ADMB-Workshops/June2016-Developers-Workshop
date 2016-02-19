@@ -8,6 +8,8 @@
 
 Contact Jim.Ianelli@noaa.gov for registration and questions.
 
+![ADMB/TMB is Awesome!](http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg "jpeg")
+
 ##Objectives
 
 ##Schedule
