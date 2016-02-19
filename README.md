@@ -52,6 +52,7 @@ _Friday_
 ##Participants
 |Name|Notes|
 |---|---|
+|Dave Fournier||
 |John Sibert||
 |Jim Ianelli||
 |Steve Martell||
@@ -62,5 +63,9 @@ _Friday_
 |Brad Bell| Developer cppad |
 |Mollie Brooks||
 |Matthew Supernaw| Developer atl |
-|Teresa Amar||
+|Teresa A'mar||
+|Chris Grandin||
+|Casper Berg||
+|Cole Monnahan||
+|Jim Thorson||
 |Johnoel Ancheta||
