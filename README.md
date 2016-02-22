@@ -53,7 +53,7 @@ _Friday_
 |Name|Notes|
 |---|---|
 |Dave Fournier||
-|John Sibert||
+|John Sibert|Curmudgeon|
 |Jim Ianelli||
 |Steve Martell||
 |Anders Nielsen||
