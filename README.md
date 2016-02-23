@@ -68,4 +68,5 @@ _Friday_
 |Casper Berg||
 |Cole Monnahan||
 |Jim Thorson||
+|Bob Carpenter|Stan Project|
 |Johnoel Ancheta||
