@@ -45,8 +45,11 @@ _Thursday_
 _Friday_
 
 |Time|Activity|
+Topic: The use of AD in statistical software
 |---|---|
-|9:00AM|Start|
+|9:00AM|Intro|
+|9:15AM|Speakder 1|
+|10:15AM|Speakder 2|
 |5:00PM|End|
 
 ##Participants
