@@ -25,7 +25,7 @@ _Tuesday_
 
 |Time|Activity|
 |---|---|
-|9:00AM|Start|
+|9:00-12.00AM|Instruction videos|
 |5:00PM|End|
 
 _Wednesday_
