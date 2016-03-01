@@ -39,18 +39,19 @@ _Thursday_
 
 |Time|Activity|
 |---|---|
-|9:00AM|Start|
+|The use of AD in statistical software|
+|9:00AM|Intro|
+|9:15AM|Speaker 1|
+|10:15AM|Speaker 2|
 |5:00PM|End|
 
 _Friday_
 
 |Time|Activity|
 |---|---|
-|The use of AD in statistical software|
-|9:00AM|Intro|
-|9:15AM|Speaker 1|
-|10:15AM|Speaker 2|
+|9:00AM|Start|
 |5:00PM|End|
+
 
 ##Participants
 |Name|Notes|
