@@ -11,6 +11,11 @@ Contact Jim.Ianelli@noaa.gov for registration and questions.
 ![ADMB/TMB is Awesome!](http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg "jpeg")
 
 ##Objectives
+* Foundation Meeting
+  - Discuss Articles
+  - Next steps
+  - Officers
+  - Website
 
 ##Schedule
 
@@ -19,6 +24,8 @@ _Monday_
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
+|1:00PM|Lunch|
+|2:00PM|Foundation Meeting|
 |5:00PM|End|
 
 _Tuesday_
