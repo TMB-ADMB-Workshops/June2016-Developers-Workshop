@@ -16,7 +16,8 @@ Contact Jim.Ianelli@noaa.gov for registration and questions.
   - Next steps
   - Officers
   - Website
-
+* Video plans for development
+  - Perhaps something like https://www.udemy.com/machlearn2/ for format?
 ##Schedule
 
 _Monday_
