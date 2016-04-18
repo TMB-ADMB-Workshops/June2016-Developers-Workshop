@@ -45,13 +45,15 @@ _Wednesday_
 
 _Thursday_
 
-|Time|Activity|
-|---|---|
-|The use of AD in statistical software|
-|9:00AM|Intro|
-|9:15AM|Speaker 1|
-|10:15AM|Speaker 2|
-|5:00PM|End|
+|Time| Activity  ||
+|:---|:-----------|:--------------------------------------------|
+|| *Invited session* | *The use of AD in statistical software*  | 
+||Speaker|Title|
+|9:00AM|David Fournier |TBA|
+|10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
+|11:00AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
+|12:00PM|Kasper Kristensen |TBA|
+|13:00PM| **Lunch** ||
 
 _Friday_
 
