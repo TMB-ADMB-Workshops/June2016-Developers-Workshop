@@ -34,6 +34,8 @@ _Tuesday_
 |Time|Activity|
 |---|---|
 |9:00-12.00AM|Instruction videos|
+|1:00-2.00PM|Jim Thorson: Title TBA|
+
 |5:00PM|End|
 
 _Wednesday_
@@ -47,7 +49,7 @@ _Thursday_
 
 |Time| Activity  ||
 |:---|:-----------|:--------------------------------------------|
-|| *Invited session* | *The use of AD in statistical software*  | 
+|| *Topic session* | *The use of AD in statistical software*  | 
 ||Speaker|Title|
 |9:00AM|David Fournier |TBA|
 |10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
