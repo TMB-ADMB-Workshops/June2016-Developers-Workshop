@@ -53,11 +53,13 @@ _Thursday_
 ||Speaker|Title|
 |9:00AM|David Fournier |The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models |
 |10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
-|11:00AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
-|12:00AM|Kasper Kristensen |TBA|
+|11:00AM||Break |
+|11:30AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
 |1:00PM| **Lunch** ||
-|2:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
-|3:00PM||Discussion|
+|2:00PM|Kasper Kristensen |TBA|
+|3:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
+|4:00PM||Discussion (chair Hans Skaug)|
+|5:00PM||End of day|
 
 
 _Friday_
