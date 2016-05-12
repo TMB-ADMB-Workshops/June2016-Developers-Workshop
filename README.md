@@ -8,6 +8,10 @@
 
 Contact Jim.Ianelli@noaa.gov for registration and questions.
 
+##Important notice for travellers:
+Changes in University of Hawaii grant administration procedures have created additional hurdles for reimbursement of non-UH employee travel expenses. Please contact Dodie Lau lau@hawaii.edu __before__ purchasing air tickets or reserving hotel accomodations; __the sooner the better.__
+
+
 ![ADMB/TMB is Awesome!](http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg "jpeg")
 
 ##Objectives
@@ -18,6 +22,7 @@ Contact Jim.Ianelli@noaa.gov for registration and questions.
   - Website
 * Video plans for development
   - Perhaps something like https://www.udemy.com/machlearn2/ for format?
+
 ##Schedule
 
 _Monday_
@@ -67,6 +72,7 @@ _Friday_
 |Time|Activity|
 |---|---|
 |9:00AM|Start|
+|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
 |5:00PM|End|
 
 
