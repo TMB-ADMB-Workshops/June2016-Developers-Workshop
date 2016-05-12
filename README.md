@@ -34,7 +34,7 @@ _Tuesday_
 |Time|Activity|
 |---|---|
 |9:00-12.00AM|Instruction videos|
-|1:00-2.00PM|Jim Thorson: Title TBA|
+|1:00-2.00PM|Jim Thorson|Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
 
 |5:00PM|End|
 
