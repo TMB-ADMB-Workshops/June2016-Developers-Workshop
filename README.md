@@ -51,7 +51,7 @@ _Thursday_
 |:---|:-----------|:--------------------------------------------|
 || *Topic session* | *The use of AD in statistical software*  | 
 ||Speaker|Title|
-|9:00AM|David Fournier |TBA|
+|9:00AM|David Fournier |The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models |
 |10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
 |11:00AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
 |12:00AM|Kasper Kristensen |TBA|
