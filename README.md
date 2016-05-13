@@ -39,7 +39,8 @@ _Tuesday_
 |Time|Activity|
 |---|---|
 |9:00-12.00AM|Instruction videos|
-|1:00-2.00PM|Jim Thorson|Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
+|1:00PM|Lunch|
+|2:00-3.00PM|Jim Thorson talk: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
 
 |5:00PM|End|
 
@@ -61,7 +62,7 @@ _Thursday_
 |11:00AM||Break |
 |11:30AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
 |1:00PM| **Lunch** ||
-|2:00PM|Kasper Kristensen |TBA|
+|2:00PM|Kasper Kristensen |TMB: Automatic Differentiation and Laplace Approximation|
 |3:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
 |4:00PM||Discussion (chair Hans Skaug)|
 |5:00PM||End of day|
