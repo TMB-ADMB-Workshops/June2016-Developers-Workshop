@@ -22,7 +22,7 @@ Changes in University of Hawaii grant administration procedures have created add
 
 ##Schedule
 
-_Monday_ __Opening and Instructional Videos__
+_Monday, June 20_ __Opening and Instructional Videos__
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
@@ -32,7 +32,29 @@ _Monday_ __Opening and Instructional Videos__
 |2:00PM|Instructional videos continued|
 |5:00PM|End|
 
-_Tuesday_ __The use of AD in statistical software__
+_Tuesday, June 21_ __Miscellaneous Topics__
+
+|Time|Activity|
+|:---|:-----------|:--------------------------------------------|
+|9:00AM|Jim Thorson talk: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
+|10:00AM|Open|
+|1:00PM|Lunch|
+|2:00-5.00PM|Conclude instruction videos|
+|5:00PM|End|
+
+_Wednesday, June 22_ __TMB / ADMB Coordination__
+
+|Time|Activity|
+|:---|:--------------------------------------------|
+|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
+| |Website: review new WordPress alternative to Plone|
+| |Outreach|
+| |More training workshops|
+| |Fund raising|
+| |Possible relocation of project|
+|5:00PM|End|
+
+_Thursday, June 23_ __The use of AD in statistical software__
 
 |Time|Speaker|Title|
 |---|-----------|--------------------------------------------|
@@ -46,29 +68,8 @@ _Tuesday_ __The use of AD in statistical software__
 |4:00PM|Hans Skaug, chair|Discussion|
 |5:00PM||End of day|
 
-_Wednesday_ __Miscellaneous Topics__
 
-|Time|Activity|
-|:---|:-----------|:--------------------------------------------|
-|9:00AM|Jim Thorson talk: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
-|10:00AM|Open|
-|1:00PM|Lunch|
-|2:00-5.00PM|Conclude instruction videos|
-|5:00PM|End|
-
-_Thursday_ __TMB / ADMB Coordination__
-
-|Time|Activity|
-|:---|:--------------------------------------------|
-|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
-| |Website: review new WordPress alternative to Plone|
-| |Outreach|
-| |More training workshops|
-| |Fund raising|
-| |Possible relocation of project|
-|5:00PM|End|
-
-_Friday_ __Foundation Meeting and Conclusion__
+_Friday, June 24_ __Foundation Meeting and Conclusion__
 
 |Time|Activity|
 |---|---|
