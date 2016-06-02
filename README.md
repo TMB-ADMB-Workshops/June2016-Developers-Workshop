@@ -101,3 +101,4 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 |Jim Thorson||
 |Bob Carpenter|Stan Project|
 |Johnoel Ancheta||
+|Gavin Fay||
