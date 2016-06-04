@@ -37,7 +37,7 @@ _Tuesday, June 21_ __Miscellaneous Topics__
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
 |9:00AM|Jim Thorson talk: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
-|10:00AM|Open|
+|10:00AM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
 |1:00PM|Lunch|
 |2:00-5.00PM|Conclude instruction videos|
 |5:00PM|End|
