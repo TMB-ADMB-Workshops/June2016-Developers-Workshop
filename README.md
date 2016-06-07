@@ -39,7 +39,9 @@ _Tuesday, June 21_ __Miscellaneous Topics__
 ||Topic morning session: R packages based on ADMB and TMB|
 |9:00AM|Jim Thorson: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
 |10:00AM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
-|11:00AM|Open|
+|11:00AM|Break|
+|11:30AM|Arni Magnusson: ADMB-IDE, rolling out version 11.5, people willing to give a hand?|
+|Noon|Open|
 |1:00PM|Lunch|
 |2:00-5.00PM|Conclude instruction videos|
 |5:00PM|End|
