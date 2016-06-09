@@ -106,3 +106,4 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 |Bob Carpenter|Stan Project|
 |Johnoel Ancheta||
 |Gavin Fay||
+|Kyle Foreman||
