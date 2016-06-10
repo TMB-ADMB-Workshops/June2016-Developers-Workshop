@@ -51,7 +51,7 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 |Time|Activity|
 |:---|:--------------------------------------------|
 |9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
-| |Website: review new WordPress alternative to Plone|
+| |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
 | |Outreach|
 | |More training workshops|
 | |Fund raising|
