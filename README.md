@@ -20,6 +20,9 @@ Changes in University of Hawaii grant administration procedures have created add
 * Developments in MCMC implementations
 * Foundation Meeting
 
+##Remote Access
+Add url?
+
 ##Schedule
 
 _Monday, June 20_ __Opening and Instructional Videos__
