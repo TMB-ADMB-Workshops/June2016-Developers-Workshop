@@ -30,20 +30,21 @@ _Monday, June 20_ __Opening and Instructional Videos__
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
 |9:00AM|Opening: revision and approval of agenda; assignment of repporteurs|
-|10:00AM|Creation of Instructional videos - Chair Hans Skaug|
+|10:00AM|Arni Magnusson: ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
+|11:00AM|Discussion|
 |1:00PM|Lunch|
-|2:00PM|Instructional videos continued|
+|2:30PM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
+|3:30AM|Jim Thorson: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
+|4:30PM|Discussion|
 |5:00PM|End|
 
 _Tuesday, June 21_ __Miscellaneous Topics__
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
-||Topic morning session: R packages based on ADMB and TMB|
-|9:00AM|Jim Thorson: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
-|10:00AM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
+|9:00AM|Overview of R packages based on ADMB and TMB|
+|10:00AM|Creation of Instructional videos - Chair Hans Skaug|
 |11:00AM|Break|
-|11:30AM|Arni Magnusson: ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
 |Noon|Open|
 |1:00PM|Lunch|
 |2:00-5.00PM|Conclude instruction videos|
@@ -53,12 +54,8 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 
 |Time|Activity|
 |:---|:--------------------------------------------|
-|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
-| |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Outreach|
-| |More training workshops|
-| |Fund raising|
-| |Possible relocation of project|
+|9:00AM|Johnoel Ancheta |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
+| |Breakout sessions|
 |5:00PM|End|
 
 _Thursday, June 23_ __The use of AD in statistical software__
@@ -80,7 +77,12 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 
 |Time|Activity|
 |---|---|
-|9:00AM|ADMB Foundation Meeting|
+|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
+| |Outreach|
+| |More training workshops|
+| |Fund raising|
+| |Possible relocation of project|
+|2:00PM|ADMB Foundation Meeting|
 ||Discuss Articles of Incorporation|
 ||Relocation of project|
 ||Election of officers|
@@ -109,4 +111,5 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 |Bob Carpenter|Stan Project|
 |Johnoel Ancheta||
 |Gavin Fay||
+|Allan Hicks|IPHC|
 |Kyle Foreman||
