@@ -69,7 +69,7 @@ _Thursday, June 23_ __The use of AD in statistical software__
 |1:00PM| **Lunch** |
 |2:00PM|Kasper Kristensen |TMB: Automatic Differentiation and Laplace Approximation|
 |3:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
-|4:00PM|Matthew Supernaw|ATL Library|
+|4:00PM|Matthew Supernaw|ATL and Higher-Order Reverse Mode AD|
 |5:00PM||End of day|
 
 
