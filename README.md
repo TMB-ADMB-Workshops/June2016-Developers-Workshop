@@ -47,7 +47,7 @@ _Tuesday, June 21_ __Miscellaneous Topics__
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
-|9:00AM|Overview of R packages based on ADMB and TMB|
+|9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new package, `TMBextras`.|
 |10:00AM|Creation of Instructional videos - Chair Hans Skaug|
 |11:00AM|Break|
 |Noon|Open|
