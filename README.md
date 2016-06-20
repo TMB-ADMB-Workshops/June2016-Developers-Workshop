@@ -24,6 +24,10 @@ Changes in University of Hawaii grant administration procedures have created add
 
 https://global.gotomeeting.com/join/772104533
 
+##Wordpress site
+
+http://admb-project-org.admb-foundation.org/
+
 ##Schedule
 
 _Monday, June 20_ __Opening and Instructional Videos__
