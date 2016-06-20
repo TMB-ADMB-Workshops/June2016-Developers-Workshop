@@ -60,7 +60,7 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 |Time|Activity|
 |:---|:--------------------------------------------|
 |9:00AM|Johnoel Ancheta |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Breakout sessions|
+| |Breakout sessions: ADMB-IDE 11.5, cppad_mixed, instructional videos, Nvidia GPU|
 |5:00PM|End|
 
 _Thursday, June 23_ __The use of AD in statistical software__
