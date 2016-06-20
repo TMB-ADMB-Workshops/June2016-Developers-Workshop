@@ -47,7 +47,7 @@ _Tuesday, June 21_ __Miscellaneous Topics__
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
-|9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new package, `TMBextras`.|
+|9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
 |10:00AM|Creation of Instructional videos - Chair Hans Skaug|
 |11:00AM|Break|
 |Noon|Open|
