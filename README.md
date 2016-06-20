@@ -21,7 +21,8 @@ Changes in University of Hawaii grant administration procedures have created add
 * Foundation Meeting
 
 ##Remote Access
-Add url?
+
+https://global.gotomeeting.com/join/772104533
 
 ##Schedule
 
