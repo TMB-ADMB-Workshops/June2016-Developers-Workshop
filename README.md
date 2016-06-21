@@ -61,10 +61,14 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 |Time|Activity|
 |:---|:--------------------------------------------|
 |9:00AM|Johnoel Ancheta |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Breakout sessions: ADMB-IDE 11.5, cppad_mixed, instructional videos, Nvidia GPU, website|
+| |Breakout sessions|
 |5:00PM|End|
 
 Possible Breakout sessions
+* ADMB-IDE 11.5
+* cppad_mixed
+* instructional videos
+* Nvidia GPU
 * TMB  with GPU
 * Non-normal RE (rotational Bayes)
 * Cross validation methods
