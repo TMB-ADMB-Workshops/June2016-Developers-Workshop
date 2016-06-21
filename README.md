@@ -61,7 +61,18 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 |Time|Activity|
 |:---|:--------------------------------------------|
 |9:00AM|Johnoel Ancheta |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Breakout sessions: ADMB-IDE 11.5, cppad_mixed, instructional videos, Nvidia GPU, website|
+| |Breakout sessions: ADMB-IDE 11.5, cppad_mixed, instructional videos, Nvidia GPU, website
+* TMB  with GPU
+* Non-normal RE (rotational Bayes)
+* Cross validation methods
+* MCMC (Riemann with Langevin updates)
+* XSSA demo of Sibert
+* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
+* Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)
+* Debugging demonstration and documentation reference
+* Posfun in TMB
+* Protocol for contributing code
+* Website issues|
 |5:00PM|End|
 
 _Thursday, June 23_ __The use of AD in statistical software__
