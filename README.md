@@ -12,7 +12,7 @@ Contact Jim.Ianelli@noaa.gov for registration and questions.
 Changes in University of Hawaii grant administration procedures have created additional hurdles for reimbursement of non-UH employee travel expenses. Please contact Dodie Lau lau@hawaii.edu __before__ purchasing air tickets or reserving hotel accomodations; __the sooner the better.__
 
 
-![ADMB/TMB is Awesome!](http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg "jpeg")
+![ADMB/TMB is Awesome!](2http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg "jpeg")
 
 ##Objectives
 * Plan development of instructional videos
@@ -22,7 +22,8 @@ Changes in University of Hawaii grant administration procedures have created add
 
 ##Remote Access
 
-https://global.gotomeeting.com/join/772104533
+* Monday https://global.gotomeeting.com/join/772104533
+* Tuesday https://global.gotomeeting.com/join/936038613
 
 ##Wordpress site
 
@@ -60,8 +61,25 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 |Time|Activity|
 |:---|:--------------------------------------------|
 |9:00AM|Johnoel Ancheta |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Breakout sessions: ADMB-IDE 11.5, cppad_mixed, instructional videos, Nvidia GPU, website|
+| |Breakout sessions|
 |5:00PM|End|
+
+Possible Breakout sessions
+* ADMB-IDE 11.5
+* cppad_mixed
+* instructional videos
+* Nvidia GPU
+* TMB  with GPU
+* Non-normal RE (rotational Bayes)
+* Cross validation methods
+* MCMC (Riemann with Langevin updates)
+* XSSA demo of Sibert
+* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
+* Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)
+* Debugging demonstration and documentation reference
+* Posfun in TMB
+* Protocol for contributing code
+* Website issues
 
 _Thursday, June 23_ __The use of AD in statistical software__
 
