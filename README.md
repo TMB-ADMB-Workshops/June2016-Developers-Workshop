@@ -22,8 +22,8 @@ Changes in University of Hawaii grant administration procedures have created add
 
 ##Remote Access
 
-Monday https://global.gotomeeting.com/join/772104533
-Tuesday https://global.gotomeeting.com/join/936038613
+* Monday https://global.gotomeeting.com/join/772104533
+* Tuesday https://global.gotomeeting.com/join/936038613
 
 ##Wordpress site
 
