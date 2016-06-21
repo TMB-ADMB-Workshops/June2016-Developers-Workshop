@@ -20,10 +20,14 @@ Changes in University of Hawaii grant administration procedures have created add
 * Developments in MCMC implementations
 * Foundation Meeting
 
-##Remote Access
+##Remote access
 
 * Monday https://global.gotomeeting.com/join/772104533
 * Tuesday https://global.gotomeeting.com/join/936038613
+
+##Breakout groups (Google Doc)
+
+https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit
 
 ##Wordpress site
 
