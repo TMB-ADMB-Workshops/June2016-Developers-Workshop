@@ -1,0 +1,260 @@
+######
+# ADMB developers meeting
+# June 20-24, 2016
+#
+# Gavin Fay notes
+######
+#
+# Monday June 20 2016
+#
+frameworks for going forward this week.
+
+Kasper - GPU, nvidia - canyou get things to work on the GPUs
+
+Examples: How to turn your ADMB model into TMB
+
+JI: generic methods for cross validation
+
+JT: TMB helper library that can provide functions to assist non-power users (e.g. doing phases)
+
+
+## Anders Nielsen's presentation: Joint TMB/ADMB development
+is it easier to extend ADMB or TMB?
+notes will supplement presentation, sasume slides are available
+sub-sweeping: Kasper: idea is to do some optimization of sweeps
+JI: auto generator?  AN: think about a beta function. Just give density. e.g. the integrate function. But more general.
+- BB: Doing a template?
+- KK: dealing with requests - (can I get the p_myfavoritedistribution?) - generic solution.
+- JT: another option is user contributed density functions, place to house these?
+- KK: addresses a different problem, when can write down density it is easy. Sometimes not too easy - users might not want to do this.
+- you give it the prob density, it gives you the cumulative
+- BB: could do an ODE, checkpoint it. consider cumulative a soultion of the ode. 
+- MB: perhaps use runge-kutta
+* example with pbeta.
+vectorize macro in TMB to generate combinations of vector/scalars for functions
+JI: does this generalize to matrices and arrays, etc.
+AN: not yet, but it could...
+AN: Have implemented new ADMB function, add VECTORIZE(my_new_fun)
+
+example pbeta in TMB
+KK: challenging to implement a genraly purpose integrator for beta, too imprecise.
+AN: currently using code from NR, goal is to do in R eventually
+AN: conditional expressions - TMB not tolerant to this (e.f. if statements including parameters/derived variables)
+DF: this could be an optimization choice
+BB: there could be a comparison - some people tape once, then check comparisons to see if arguments have changed. Others try to code out the individual cases that come up.
+features in cppad to check the tape so that you know whether what has come up does not correpsond to original algorithm
+AN: tiny_ad library. feasible to do froward AD for small number of arguments.
+JI: Is this where you have deriviatives inside the template
+BB: tapeless?
+KK: mixes reverse-forward mode for computation. Critical to conserve cheap gradient. forward mode can preserve the cheap gradient. 
+BB: way to create atomic functions
+JT: Can we have a Better workflow for communicating new techniques? 
+AN: will be in report that will go 'somewhere'.
+BB: can do the same thing with checkpoint functions in cppad.
+KK: memory issue, don't want to expand ALL the operations
+
+qbeta in ADMB
+AN: renamed. some precision issue, something that was done to make it stable. new version corresponds to R.
+derivatives. Compared to R numderiv(), something was awry. Underlines value of comparing multiple approaches.
+Much safer using generic function rather than having indivs code derivatives themselves.
+underlines need for something like tiny_ad
+BB: when go to check the derivatives you can use anything to check.
+AN: difficulty was getting derivatives out of ADMB
+Bessel function is going to be initial instance of trying to use tiny_ad in ADMB.
+
+BB: when writing C++ routines for special functions, he uses GSL in C, thought about having Python function that takes templated version and writes function?
+KK: did manual conversion to template version for Bessel. Would be nightmare to do automatically.
+DF: one thing has to be AD type, keep running thing so it tells you which things need to be ad type.
+KK: issue is when have 3 inputs, not interested in computing derivatives for one.
+BB: cppad make everything adtype, but parts of code can be difficult to deal with
+KK: e.g. double to integer, what do you expect your ad tool to do in these instances
+BB: well that will throw a compile aerror, can't do it by mistake.
+KK: you'll want to review this as a developer, you don't want this to be done automatically, need to understand what is going on.
+DF: still a place for people in all this.
+
+JI: fairly low level, not at user.
+
+BB/AN: idea is about how to add new user features.
+
+JS: be good to look at tiny_ad code
+KK: in private repo but will make available eventually.
+AN: ADMB version is on his github.
+
+BB: these atomic functions, could be an addon or cppad that people could use in general? part of the reason I did cppadmixed
+
+# Close Anders presentation
+
+JI: Do we need to map out overlaps  / potentials etc. of where different things fit together - where is the overlap, where things need to be carved out (e.g. tiny_ad, STAN, etc.)
+
+JT: what about output from R, how likely is that to change - will this be documented.
+KK: R output won't change. Some of the internal stuff on the C side is different, not sure this is 100% static.
+BB: grow things, move things in to it as needed.
+KK: intent was to use cppad as is inside TMB. But...  (sparse testing)
+BB: need to do some speed testing
+JT: more documentation, don;t necessariyl want to code stuff underneath, but wondering where things fit.
+MB: best pratices for one example, e.g. conway/maxwell or generalized poisson, then write out experience with this. 
+JT: where to house an R library that contains R code that sits on top of TMB. fairly straightforward. less clear how to contribute C++ to TMB, that is not general enough to be in TMB project, but still want it to be used.
+JT: e.g. GMACS, dont want in the TMB base, but still useful to share. Is there a better way?
+KK: definitely want an easy way to include your own libraries of C++ functions.
+
+BB: when you write something do you also write documentaton on how to do this?
+KK: do it with doxygen
+
+HS/KK: easy solution to add this C++ functons, make an hpp file, and put it after TMB.
+KK: set up a way where you could install it as a plugin folder within TMB.
+BB: suggestion is to have a sub-namespace in TMB. 
+BB: sub-namespace - way you use include files, way to keep names from conflicting with eachother
+KK: perhaps have a contrib bamespace in a contrib folder somewhere, points to something that you don't get by default. in principle easy - just need to decide what is way we want to do this.
+JI: contributed libraries shoul be separate - use at your own risk type
+BB: separate repo, but gets installed into TMB include at install.
+JT: maybe have an R function that downlaods a file and puts it where it needs to be.
+MB: perhaps take advantage of devtools to grab code, and then another function that puts it in include folder.
+KK: create a contrib folder that's dedicated to putting in these contributed libraries. Modify compile functions in TMB to include everything within contrib folder.
+
+
+
+### Brad Bell
+
+cppad_mixed examples, capture_xam.cpp
+
+JT: what is advantages of using cppad_mixed vs.  doing cppad and use TMB to do mixed effects bit.
+
+gsl is the gnu scientific library
+
+
+
+Wednesday BBQ @ JI house
+
+
+### Mollie Brooks, glmmTMB  'glim tim'
+
+JT: spatiotemporal packacge that is replicating / trying to do similar things to glmmTMB
+
+Could be very useful for Alex Hansell and others
+
+lmer 5x faster than glmmTMB for gaussian,  for count data glmmTMB 2.3x faaster than glmer
+
+future additions:
+last one is increse stability?
+CB: are there problems with stability?
+JT: spatialdeltaGLM, deal with biomdality, one case where TMB can fall apart - u step dive towards 0. gets worse as it gets closer to MLE.
+KK: problem is in laplace approximation. able to choose way of outer parameters in a way that makes random parameters flat inner likelihood.
+HS: can diagnose the problem with importance sampling vs laplace approximation. to solve, need to constrain problem to avoid regions of parameter space.
+JT: diagnosis of failure of laplace.
+DF: want to see how unstable importance sampling is, that will tell you that laplace is not a good idea.
+DF: well if normal approx is not very good, what should you do to get a better approximation
+
+#  MB: Generalized Poisson.
+Hansell: see Harris et al. 2012 Stata Journal (modeling underdispersed counts....)
+JT: perhaps include Conway-Maxwell poisson
+thinking about adding a dgenpois function - compare to Jim's conway-maxwell. ?
+github.com/glmmTMB/glmmTMB
+
+HS: weights - can be dangerous, don't get what you expect when using random effects. When are the weights applied - if included in template then weights will get wrong.
+CB: changing weights is comparable to changing data, which is why you can't use AIC.
+BB: have had to demonstrate that you get the same answer. modeling variances vs std devs.
+MB: Should we remove the weights option? Is it that risky?
+HS/JT: Yes, probably a good idea.
+JT: could add in by hanf the missing part. Accomplish same stuff by modeling the dispersion term.
+
+
+### Arni presentation
+
+# ADMB IDE
+
+lag between ADMB relesases and provision of IDE.
+
+should make use of GCC for Rtools
+
+JI: talk about that some more. differences between compilers
+JA: use MinGW for everything. Tried Rtools but ran in to some problems.
+
+
+### Jim Thorson
+#Species interactions, ecsystem modeling
+Granger cointegration models
+
+#much in presentation,
+
+Uber-model
+* is anyone interested in working with JT on this?
+
+Potential advancements
+1. variational Bayes
+
+CB: go back to orevioud DF comment - need to first know if LA is not working.
+JT: asymptotically as you increase data, always favor putting in additional random effect, even with trivial effect size. simulation papers.
+
+link to the Danes leave 1 out cross-validation
+
+Model selection
+CB: JT needs to convince folks that conditional AIC is something you need.
+BB: lasso is an alternative to model selection.
+
+general conclusion as a group: it would be nice to be able to diagnose cases where LA is not performing well.
+
+### Brad Bell
+### CppAD Mixed
+not much that other than presentation
+Did not capture conversation.
+
+JT: asked about being able to make use of GPUs - does CppAD Mixed do this?
+JS: Has run KK's nvblas issue, will workwith KK on whether this worked, improvements.
+GF: gputools package in R contains some functions optimised for GPUs, perhaps make use of them
+
+# final conversation
+general issues about providing user support.
+
+JI: Do we need more cases where we have same model in ADMB and TMB, best practices on what to do / what not to do in one vs the other.
+
+List of potential breakout sessions.
+
+- experiences with two packages
+- helper library for TMB
+
+stuff parked for today
+JS, CM STAN material, MB posfun, best practice for contributing code, 
+
+
+##### TUESDAY ######
+
+### Arni,
+### TMB IDE
+
+3 versions - modes
+
+1. tmb.el  tmb-mode
+2. tmb-ide , with config file that lets emacs behave.
+3. vrtual tmb: virtualbox
+
+6gb file, currently on a server in iceland. might be good to get it here somewhere.
+
+challenges with maintenance and learning.
+
+KK and other developers are using tmb-mode
+
+maintenance is fairly easy for Arni, not many files to keep track of / update
+
+kaskr/adcomp/tree/master/emacs
+
+http://www.hafro.is/~arnima/tmb.html
+
+
+## Hans
+## Instructional videos
+
+Topics to consider.
+Live editing in Hans' presentation
+
+ordering of topics - installation, first example, example with random effects, etc.
+
+## Breakout groups,
+
+MB created Google Docs spreadsheet, linked to on the github page.
+
+
+
+
+
+
+
