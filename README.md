@@ -28,6 +28,7 @@ Changes in University of Hawaii grant administration procedures have created add
 * Thursday https://global.gotomeeting.com/join/818165589
 * Thursday afternoon https://global.gotomeeting.com/join/705890341
 * Friday https://global.gotomeeting.com/join/173447973
+* Friday afternoon https://global.gotomeeting.com/join/​110768581
 
 ##Breakout groups (Google Doc)
 
