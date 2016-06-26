@@ -24,6 +24,11 @@ Changes in University of Hawaii grant administration procedures have created add
 
 * Monday https://global.gotomeeting.com/join/772104533
 * Tuesday https://global.gotomeeting.com/join/936038613
+* Wednesday https://global.gotomeeting.com/join/864026837
+* Thursday https://global.gotomeeting.com/join/818165589
+* Thursday afternoon https://global.gotomeeting.com/join/705890341
+* Friday https://global.gotomeeting.com/join/173447973
+* Friday afternoon https://global.gotomeeting.com/join/​110768581
 
 ##Breakout groups (Google Doc)
 
@@ -54,11 +59,11 @@ _Tuesday, June 21_ __Miscellaneous Topics__
 |:---|:-----------|:--------------------------------------------|
 |9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
 |10:00AM|Creation of Instructional videos - Chair Hans Skaug|
-|11:00AM|Break|
-|Noon|Open|
-|1:00PM|Lunch|
-|2:00-5.00PM|Conclude instruction videos|
-|5:00PM|End|
+|11:00AM|Split into breakout groups|
+|Noon|Lunch|
+|1:00PM|Breakout groups|
+|2:00-3.00PM|*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
+|3:00-5:00PM|Breakout groups|
 
 _Wednesday, June 22_ __TMB / ADMB Coordination__
 
