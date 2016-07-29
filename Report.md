@@ -6,8 +6,9 @@ School of Aquatic and Fisheries Sciences
 
 Seattle, Washington, USA
 
-﻿Put your name below 2 or 3 topics  for breakout groups below.Then we’ll try to organize the schedule accordingly.
+##Introduction
 
+##Breakout Groups
 
 ESSENTIALLY DONE (add notes about outcome)
 * R package of contributed functions 
@@ -95,9 +96,6 @@ NEED HELP
    * Bob
 * Non-normal RE (rotational Bayes)  
 * Create TMB page on Wikipedia
-*   
-
-
 
 The following will also be scheduled if they aren’t already:
    * Debugging demonstration and documentation reference
