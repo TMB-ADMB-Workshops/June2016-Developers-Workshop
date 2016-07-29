@@ -7,10 +7,13 @@ School of Aquatic and Fisheries Sciences
 Seattle, Washington, USA
 
 ##Introduction
+This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers and were joined by invited European and American experts. These experts introduced their experiences in software development for similar types of challenges. The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project. 
+
+Participants are included in an appendix to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
 
 ##Breakout Groups
+The following lists activities and progress for the breakout groups.
 
-ESSENTIALLY DONE (add notes about outcome)
 * R package of contributed functions 
    * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page 
       * He’s working on a function as part of package to install these into right place so they get compiled
