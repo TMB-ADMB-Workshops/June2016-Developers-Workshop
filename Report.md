@@ -242,4 +242,5 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 |Gavin Fay||
 |Allan Hicks|IPHC|
 |Kyle Foreman||
+|Rick Methot||
 
