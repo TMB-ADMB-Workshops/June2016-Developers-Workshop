@@ -15,10 +15,6 @@ This report summarises the events of the 6th ADMB Developer’s Workshop, a meet
 Participants are included in an appendix to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
 The workshop was broadcast via the internet to allow for remote participation.
 
-[Gavin Fay's experience using TMB with GPU card is available on the githup repository.](
-https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf)
-[Bob Carpenter's presentation on Stan implementation and issues]( 
-https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf)
 ##Objectives
 The main obectives of the workshop included to
 * Plan and develop instructional videos
@@ -30,6 +26,13 @@ The main obectives of the workshop included to
 ##Presentations on activities
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities
 where ADMB/TMB are being actively used.
+
+[Gavin Fay's experience using TMB with GPU card is available on the githup repository.](
+https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf)    
+
+[Bob Carpenter's presentation on Stan implementation and issues]( 
+https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf)    
+
 
 ## New website
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
