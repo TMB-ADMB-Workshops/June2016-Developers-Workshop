@@ -224,8 +224,8 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 ##Participants
 |Name|Notes|
 |---|---|
-|Dave Fournier||
-|John Sibert|Curmudgeon|
+|Dave Fournier|Otter Research|
+|John Sibert|ADMB Project, JIMAR, University of Hawaii|
 |Jim Ianelli||
 |Steve Martell||
 |Anders Nielsen||
@@ -241,8 +241,9 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 |Cole Monnahan||
 |Jim Thorson||
 |Bob Carpenter|Stan Project|
-|Johnoel Ancheta||
+|Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
 |Gavin Fay||
 |Allan Hicks|IPHC|
 |Kyle Foreman||
+|Rick Methot||
 
