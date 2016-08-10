@@ -83,62 +83,60 @@ Relative to these tasks, the following lists activities and progress for the bre
 * Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp#example_cpp
    *  Thorson, Kasper, Mollie (testing Friday)
 
+##Discussions
+Bob Carpenter and Brad Bell led discussionsn about autodiff in general and announced that there will be a workshop in
+Oxford (still time to submit a poster abstract).
 
-An example presentation of Atomic functions and use of derivatives within the template (during Kasper’s presentation)
+Cole Monnahan led discussions about using Hamiltonian Monte Carlo.  This included MCMC with Langevin updates but Bob Carpenter noted that there were issues with this approach
+in that it can devolve
+to a diffusive random walk and take O(N^2) where N is the number
+of parameters per effective sample size. HMC is O(N^(5/4)) and the constants are much much better for HMC if there's high correlation.
 
-Matthew’s AD example comparing gradients with ADMB and TMB was double checked.
+Cole Monnahan about fisheries model with population growth,
+max stable population size, and fishing capture.  Rather than
+treating number of fish caught as a known quantity, it can be treated
+as a random variable with very low noise and a bound to keep everything above
+zero.  Placing the model on the number of fish caught keeps the model
+generative in a way that just bounding the whole population size above
+zero doesn't.
+
+An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
+
+Matthew's AD example comparing gradients with ADMB and TMB was double checked.
 
 Several began planning spatio-temporal textbook using TMB
 
-* Option to suppress warnings from CHOLMOD during optimization 
-   * Casper, Kasper, Brad.
+The following additional items were noted:
+* Include an option to suppress warnings from CHOLMOD during optimization 
    * Notes: Now the warnings are disabled by default. They can be activated by adding
 newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
-* Created TMB Users google group so that users can answer each other’s questions
-
+* Created TMB Users google group so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
 * Website issues
    * John, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
    * Additional logos needed in footer
 
+An exellent instructional video was developed by Mollie, Hans, and Arni.
+Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
-CURRENTLY ACTIVE
-* Instructional videos
-   * Mollie, Hans, Arni
-* ADMB-IDE 11.5
-   * Arni, Chris, Cole, Johnoel (in lunch area)
-* TMB  with GPU
-   * Arni, Gavin, Teresa
-* Brainstorm a website and foundation name
+It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
+The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory:
+   adcomp/tmb_examples/validation an example exists.
 
-* Discuss getting better sparseness detection in ADMB
-   * Kasper, Matt, Dave
-* posfun in TMB
-   * See GitHub issue #7; admb version has posfun2 that may be C3.
-   * Dave, Cole, Jim T
-* HAPPENING SOON
-* Model selection (e.g. Cross validation methods, Conditional AIC, 1 step predict)
-   * Mollie
-   * See adcomp/tmb_examples/validation
-* Try to run ATL, theta-logistic example
-   * Arni
-* Try to run cppad_mixed, using cppad without the TMB layer
-   * Brad, Arni, Ianelli, Hans, Teresa
+A sub-group endeavored torun cppad_mixed, using cppad without the TMB layer
+while another group led by Anders developed a simple script to show that TMB can be used for non-R folks.
+
+###Other topics
 * Rank order -1 problem
-* Script for non-R folks
 * 3rd order derivatives
 * NUTS algorithm to be added to ADMB
 * Sparseness detection
 * Parallelization; Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial
 
-
-## Other tasks
 * Get install_github() to do source("install_windows.R") when Windows is detected
-* MCMC (Riemann with Langevin updates)(after Cole’s presentation)
-   * Bob
 * Non-normal RE (rotational Bayes)  
 * Create TMB page on Wikipedia
 
