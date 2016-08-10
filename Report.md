@@ -57,7 +57,7 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * Protocol for contributing code     
   * Website issues     
 
-The following lists activities and progress for the breakout groups.
+Relative to these tasks, the following lists activities and progress for the breakout groups.
 
 * R package of contributed functions 
    * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page 
@@ -84,15 +84,12 @@ The following lists activities and progress for the breakout groups.
    *  Thorson, Kasper, Mollie (testing Friday)
 
 
-* Example presentation of Atomic functions and use of derivatives within the template (during Kasper’s presentation)
+An example presentation of Atomic functions and use of derivatives within the template (during Kasper’s presentation)
 
+Matthew’s AD example comparing gradients with ADMB and TMB was double checked.
 
-* Double checked Mathew’s AD example comparing gradients with ADMB and TMB 
-   * Mathew, Kasper
+Several began planning spatio-temporal textbook using TMB
 
-
-* Begin planning spatio-temporal textbook using TMB
-   * Thorson, K/C-asper, Anders, Hans
 * Option to suppress warnings from CHOLMOD during optimization 
    * Casper, Kasper, Brad.
    * Notes: Now the warnings are disabled by default. They can be activated by adding
@@ -138,21 +135,19 @@ CURRENTLY ACTIVE
 * Parallelization; Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial
 
 
-NEED HELP
+## Other tasks
 * Get install_github() to do source("install_windows.R") when Windows is detected
 * MCMC (Riemann with Langevin updates)(after Cole’s presentation)
    * Bob
 * Non-normal RE (rotational Bayes)  
 * Create TMB page on Wikipedia
 
-The following will also be scheduled if they aren’t already:
    * Debugging demonstration and documentation reference
    * Everyone
    * glmmTMB publication planning
 
 
-Website
-   * Add dtu aqua and coin-r  in footer
+A note was made to add DTU Aqua in footer websites;
 
 ##Agenda and timing
 The following outlines the agenda and schedule that was followed.
