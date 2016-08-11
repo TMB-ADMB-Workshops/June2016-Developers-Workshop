@@ -76,7 +76,7 @@ Relative to these tasks, the following lists activities and progress for the bre
          * GF tested using thetalogistic example.
          * Example usage in Roxygen documentation for TMBphase()
          * Not implemented choice of optimizer yet.
-      * Maybe Cole will add TMBmcmc
+      * Maybe Cole will add TMBmcmc, which would entail moving the MCMC code currently in the TMB package into TMBmcmc.
       * It would be nice to have an AIC function that works as AIC(fit <- nlminb(mod$par, mod$fn, mod$gr)). See TMBAIC at https://github.com/kaskr/adcomp/wiki/FAQ
          * THIS has now been added to TMBhelper in the user-contributed directory
       * It would be nice to have an elem_prod() function.
@@ -87,18 +87,7 @@ Relative to these tasks, the following lists activities and progress for the bre
 Bob Carpenter and Brad Bell led discussionsn about autodiff in general and announced that there will be a workshop in
 Oxford (still time to submit a poster abstract).
 
-Cole Monnahan led discussions about using Hamiltonian Monte Carlo.  This included MCMC with Langevin updates but Bob Carpenter noted that there were issues with this approach
-in that it can devolve
-to a diffusive random walk and take O(N^2) where N is the number
-of parameters per effective sample size. HMC is O(N^(5/4)) and the constants are much much better for HMC if there's high correlation.
-
-Cole Monnahan about fisheries model with population growth,
-max stable population size, and fishing capture.  Rather than
-treating number of fish caught as a known quantity, it can be treated
-as a random variable with very low noise and a bound to keep everything above
-zero.  Placing the model on the number of fish caught keeps the model
-generative in a way that just bounding the whole population size above
-zero doesn't.
+Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
 
 An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
 
