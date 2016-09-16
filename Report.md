@@ -134,12 +134,17 @@ help support the TMB activities and embrace alternative approaches to software d
 
 http://admb-project-org.admb-foundation.org/
 
-The website was discussed further during the breakout groups.
+The website was discussed further during the breakout group([Website issues](#website-issues)).
 
-Topics for breakout sessions
-----------------------------
+Nuts in ADMB
+------------
+Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
+
+Breakout Sessions
+-----------------
 
 The group discussed and developed a list of topics to be covered in breakout sessions:     
+
   * ADMB-IDE 11.5     
   * cppad_mixed     
   * instructional videos     
@@ -188,10 +193,6 @@ Discussions
 Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in
 Oxford (still time to submit a poster abstract).
 
-Nuts in ADMB
-------------
-Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
-
 An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
 
 Matthew's AD example comparing gradients with ADMB and TMB was double checked.
@@ -204,7 +205,8 @@ The following additional items were noted:
 newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
-* Website issues
+
+**Website issues<a name="website-issues"/>**
    * John Sibert, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
    * Additional logos needed in footer
@@ -222,7 +224,6 @@ while another group led by Anders developed a simple script to show that TMB can
 * 3rd order derivatives
 * NUTS algorithm to be added to ADMB
 * Sparseness detection
-* Parallelization; Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial
 
 * Get install_github() to do source("install_windows.R") when Windows is detected
 * Non-normal RE (rotational Bayes)  
@@ -261,6 +262,12 @@ Potential new features
 
 * Implement NUTS algorithm into ADMB   
 _for Cole, Dave Fournier and Johnoel_
+* Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
+
+Collaboration
+-------------
+
+Anders Nielsen stated the importance of having more than one tool for automatic differention.
 
 Participants
 ============
