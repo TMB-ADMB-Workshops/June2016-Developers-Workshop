@@ -243,18 +243,18 @@ Tasks
 -----
 
 * Automate ADMB-IDE builds  
-Johnoel
+_for Arni and Johnoel._
 * Move ADMB Website to another web host  
-Johnoel
+_for Sibert and Johnoel._
 * Documenting the source code
 * Add DTU Aqua in footer to ADMB website  
-Johnoel
+_for Johnoel._
 
 Potential new features
 ----------------------
 
 * Implement NUTS algorithm into ADMB   
-Cole, Dave Fournier and Johnoel
+_for Cole, Dave Fournier and Johnoel._
 
 Participants
 ============
