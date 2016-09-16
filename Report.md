@@ -242,19 +242,19 @@ Priorities
 Tasks
 -----
 
-* Automate ADMB-IDE builds
-    Johnoel
-* Move ADMB Website to another web host
-    Johnoel
+* Automate ADMB-IDE builds  
+Johnoel
+* Move ADMB Website to another web host  
+Johnoel
 * Documenting the source code
-* Add DTU Aqua in footer to ADMB website
-    Johnoel
+* Add DTU Aqua in footer to ADMB website  
+Johnoel
 
 Potential new features
 ----------------------
 
-* Implement NUTS algorithm into ADMB
-    Cole, Dave Fournier and Johnoel
+* Implement NUTS algorithm into ADMB   
+Cole, Dave Fournier and Johnoel
 
 Participants
 ============
