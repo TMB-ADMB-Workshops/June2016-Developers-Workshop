@@ -134,7 +134,7 @@ help support the TMB activities and embrace alternative approaches to software d
 
 http://admb-project-org.admb-foundation.org/
 
-The website was discussed further during the breakout group([Website issues](#website-issues)).
+The website was discussed further during the breakout group([Website issues](#websiteissues)).
 
 Nuts in ADMB
 ------------
@@ -159,7 +159,7 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * Debugging demonstration and documentation reference     
   * Posfun in TMB     
   * Protocol for contributing code     
-  * Website issues     
+  * ([Website issues](#websiteissues))
 
 Relative to these tasks, the following lists activities and progress for the breakout groups.
 
@@ -206,7 +206,7 @@ newtonOption(obj,silent=FALSE). However, you will know that they would have been
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
 
-<a name="website-issues"/>
+<a name="websiteissues"/>
 **Website issues**
    * John Sibert, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
