@@ -54,13 +54,13 @@ _Miscellaneous Topics_
 
 |Time|Speaker|Activity|
 |:---|:------|:-------|
-|9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
+|9:00AM||Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
 |10:00AM|Chair Hans Skaug|Creation of Instructional videos|
-|11:00AM|Split into breakout groups|
+|11:00AM||Split into breakout groups|
 |Noon||**Lunch**|
-|1:00PM|Breakout groups|
-|2:00-3.00PM|*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
-|3:00-5:00PM|Breakout groups|
+|1:00PM||Breakout groups|
+|2:00-3.00PM||*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
+|3:00-5:00PM||Breakout groups|
 |5:00PM||**End**|
 
 **Wednesday, June 22**
