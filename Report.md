@@ -80,7 +80,7 @@ _TMB / ADMB Coordination_
 _The use of AD in statistical software_
 
 |Time|Speaker|Title|
-|---|-----------|--------------------------------------------|
+|:---|:------|:----|
 |9:00AM|David Fournier |The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models |
 |10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
 |11:00AM||Break |
@@ -158,7 +158,7 @@ Relative to these tasks, the following lists activities and progress for the bre
       * He’s working on a function as part of package to install these into right place so they get compiled
    * Contains subdirectories that can be installed using devtools R package installer
    * Examples include:
-      *  Jim Thorson added TMBdebug
+      * Jim Thorson added TMBdebug
       * Gavin is working on TMBphase using example code from Mollie
          * Phasing within an optimizer
          * Function with normal inputs, passed via “...”, plus two additional arguments, “phase” and “optimizer”
@@ -177,32 +177,34 @@ Relative to these tasks, the following lists activities and progress for the bre
 * Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp#example_cpp
    *  Thorson, Kasper, Mollie (testing Friday)
 
-##Discussions
+Discussions
+-----------
 
 Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in
 Oxford (still time to submit a poster abstract).
 
+Nuts in ADMB
+------------
 Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
 
 An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
 
 Matthew's AD example comparing gradients with ADMB and TMB was double checked.
 
-Several began planning spatio-temporal textbook using TMB
+Several began planning spatio-temporal textbook using TMB.
 
 The following additional items were noted:
 * Include an option to suppress warnings from CHOLMOD during optimization 
    * Notes: Now the warnings are disabled by default. They can be activated by adding
 newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
-* Created TMB Users google group so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
 * Website issues
-   * John, Johnoel, Mollie
+   * John Sibert, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
    * Additional logos needed in footer
 
-An exellent instructional video was developed by Mollie, Hans, and Arni.
+
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
@@ -228,24 +230,31 @@ while another group led by Anders developed a simple script to show that TMB can
    * Everyone
    * glmmTMB publication planning
 
-A note was made to add DTU Aqua in footer websites;
-
 Accomplishments
 ===============
 
-* 
+* An exellent instructional video was developed by Mollie, Hans, and Arni.  The video will be added to youtube.  A link will be made public once it is uploaded.
+* Created [TMB Users google group](https://groups.google.com/forum/#!forum/tmb-users) so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
 Priorities
 ==========
 
+Tasks
+-----
+
 * Automate ADMB-IDE builds
+  : Johnoel
 * Move ADMB Website to another web host
+  : Johnoel
 * Documenting the source code
+* Add DTU Aqua in footer to ADMB website
+  : Johnoel
 
 Potential new features
 ----------------------
 
 * Implement NUTS algorithm into ADMB
+  : Cole, Dave Fournier and Johnoel
 
 Participants
 ============
