@@ -206,7 +206,8 @@ newtonOption(obj,silent=FALSE). However, you will know that they would have been
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
 
-**Website issues<a name="website-issues"/>**
+<a name="website-issues"/>
+**Website issues**
    * John Sibert, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
    * Additional logos needed in footer
