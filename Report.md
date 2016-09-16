@@ -137,16 +137,16 @@ while another group led by Anders developed a simple script to show that TMB can
    * Everyone
    * glmmTMB publication planning
 
-
 A note was made to add DTU Aqua in footer websites;
 
-Agenda and timing
------------------
+Agenda and Schedule
+===================
 
 The following outlined the agenda and schedule that was followed.
 
 **Monday, June 20**
-__Opening and Instructional Videos__
+
+_Opening and Instructional Videos_
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
@@ -160,7 +160,8 @@ __Opening and Instructional Videos__
 |5:00PM|End|
 
 **Tuesday, June 21**
-__Miscellaneous Topics__
+
+_Miscellaneous Topics_
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
@@ -173,7 +174,8 @@ __Miscellaneous Topics__
 |3:00-5:00PM|Breakout groups|
 
 **Wednesday, June 22**
-__TMB / ADMB Coordination__
+
+_TMB / ADMB Coordination_
 
 |Time|Activity|
 |:---|:--------------------------------------------|
@@ -182,7 +184,8 @@ __TMB / ADMB Coordination__
 |5:00PM|End|
 
 **Thursday, June 23**
-__The use of AD in statistical software__
+
+_The use of AD in statistical software_
 
 |Time|Speaker|Title|
 |---|-----------|--------------------------------------------|
@@ -198,7 +201,8 @@ __The use of AD in statistical software__
 
 
 **Friday, June 24**
-__Foundation Meeting and Conclusion__
+
+_Foundation Meeting and Conclusion_
 
 |Time|Activity|
 |---|---|
