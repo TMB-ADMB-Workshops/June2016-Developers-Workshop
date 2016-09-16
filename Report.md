@@ -243,12 +243,12 @@ Tasks
 -----
 
 * Automate ADMB-IDE builds
-  : Johnoel
+  :  Johnoel
 * Move ADMB Website to another web host
-  : Johnoel
+  :  Johnoel
 * Documenting the source code
 * Add DTU Aqua in footer to ADMB website
-  : Johnoel
+  :  Johnoel
 
 Potential new features
 ----------------------
