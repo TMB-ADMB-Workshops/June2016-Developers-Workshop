@@ -42,25 +42,26 @@ _Opening and Instructional Videos_
 |9:00AM||Opening: revision and approval of agenda; assignment of repporteurs|
 |10:00AM|Arni Magnusson|ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
 |11:00AM|Discussion|
-|1:00PM||Lunch|
+|1:00PM||**Lunch**|
 |2:30PM|Mollie Brooks|The glmmTMB package for flexible mixed models in R|
 |3:30AM|Jim Thorson|Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
 |4:30PM||Discussion|
-|5:00PM||End|
+|5:00PM||**End**|
 
 **Tuesday, June 21**
 
 _Miscellaneous Topics_
 
-|Time|Activity|
-|:---|:-------|
+|Time|Speaker|Activity|
+|:---|:------|:-------|
 |9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
-|10:00AM|Creation of Instructional videos - Chair Hans Skaug|
+|10:00AM|Chair Hans Skaug|Creation of Instructional videos|
 |11:00AM|Split into breakout groups|
-|Noon|Lunch|
+|Noon||**Lunch**|
 |1:00PM|Breakout groups|
 |2:00-3.00PM|*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
 |3:00-5:00PM|Breakout groups|
+|5:00PM||**End**|
 
 **Wednesday, June 22**
 
@@ -70,7 +71,9 @@ _TMB / ADMB Coordination_
 |:---|:------|:-------|
 |9:00AM|Johnoel Ancheta|Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
 |||Breakout sessions|
-|5:00PM||End|
+|1:00PM|| **Lunch** |
+|||Breakout sessions|
+|5:00PM||**End**|
 
 **Thursday, June 23**
 
@@ -82,11 +85,11 @@ _The use of AD in statistical software_
 |10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
 |11:00AM||Break |
 |11:30AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
-|1:00PM| **Lunch** |
+|1:00PM|| **Lunch** |
 |2:00PM|Kasper Kristensen |TMB: Automatic Differentiation and Laplace Approximation|
 |3:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
 |4:00PM|Matthew Supernaw|ATL and Higher-Order Reverse Mode AD|
-|5:00PM||End of day|
+|5:00PM||**End**|
 
 
 **Friday, June 24**
@@ -104,7 +107,7 @@ _Foundation Meeting and Conclusion_
 ||Discuss Articles of Incorporation|
 ||Relocation of project|
 ||Election of officers|
-|4:00PM|End|
+|4:00PM|**End**|
 
 Discussions
 ===========
