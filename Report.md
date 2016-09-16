@@ -37,23 +37,23 @@ The following outlined the agenda and schedule that was followed.
 
 _Opening and Instructional Videos_
 
-|Time|Activity|
-|:---|:-----------|:--------------------------------------------|
-|9:00AM|Opening: revision and approval of agenda; assignment of repporteurs|
-|10:00AM|Arni Magnusson: ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
+|Time|Speaker|Activity|
+|:---|:------|:-------|
+|9:00AM||Opening: revision and approval of agenda; assignment of repporteurs|
+|10:00AM|Arni Magnusson|ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
 |11:00AM|Discussion|
-|1:00PM|Lunch|
-|2:30PM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
-|3:30AM|Jim Thorson: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
-|4:30PM|Discussion|
-|5:00PM|End|
+|1:00PM||Lunch|
+|2:30PM|Mollie Brooks|The glmmTMB package for flexible mixed models in R|
+|3:30AM|Jim Thorson|Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
+|4:30PM||Discussion|
+|5:00PM||End|
 
 **Tuesday, June 21**
 
 _Miscellaneous Topics_
 
 |Time|Activity|
-|:---|:-----------|:--------------------------------------------|
+|:---|:-------|
 |9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
 |10:00AM|Creation of Instructional videos - Chair Hans Skaug|
 |11:00AM|Split into breakout groups|
@@ -66,11 +66,11 @@ _Miscellaneous Topics_
 
 _TMB / ADMB Coordination_
 
-|Time|Activity|
-|:---|:--------------------------------------------|
+|Time|Speaker|Activity|
+|:---|:------|:-------|
 |9:00AM|Johnoel Ancheta|Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Breakout sessions|
-|5:00PM|End|
+|||Breakout sessions|
+|5:00PM||End|
 
 **Thursday, June 23**
 
