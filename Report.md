@@ -3,7 +3,7 @@ Developers Workshop 2016 Report
 
 June 20 - 24, 2016
 
-School of Aquatic and Fisheries Sciences
+University of Washington, School of Aquatic and Fisheries Sciences
 
 Seattle, Washington, USA
 
@@ -22,11 +22,11 @@ Priorities
 
 The main priorities of the workshop are
 
-* Plan and develop instructional videos
-* Coordinate between TMB and ADMB Projects
-* Further develop MCMC implementations
-* Review new website design (converted from plone to wordpress)
-* Hold an ADMB Foundation meeting
+1. Plan and develop instructional videos
+2. Coordinate between TMB and ADMB Projects
+3. Further develop MCMC implementations
+4. Review new website design (converted from plone to wordpress)
+5. Hold an ADMB Foundation meeting
 
 ##Presentations on activities
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities
@@ -140,10 +140,13 @@ while another group led by Anders developed a simple script to show that TMB can
 
 A note was made to add DTU Aqua in footer websites;
 
-##Agenda and timing
-The following outlines the agenda and schedule that was followed.
+Agenda and timing
+-----------------
 
-_Monday, June 20_ __Opening and Instructional Videos__
+The following outlined the agenda and schedule that was followed.
+
+**Monday, June 20**
+__Opening and Instructional Videos__
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
@@ -156,7 +159,8 @@ _Monday, June 20_ __Opening and Instructional Videos__
 |4:30PM|Discussion|
 |5:00PM|End|
 
-_Tuesday, June 21_ __Miscellaneous Topics__
+**Tuesday, June 21**
+__Miscellaneous Topics__
 
 |Time|Activity|
 |:---|:-----------|:--------------------------------------------|
@@ -168,7 +172,8 @@ _Tuesday, June 21_ __Miscellaneous Topics__
 |2:00-3.00PM|*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
 |3:00-5:00PM|Breakout groups|
 
-_Wednesday, June 22_ __TMB / ADMB Coordination__
+**Wednesday, June 22**
+__TMB / ADMB Coordination__
 
 |Time|Activity|
 |:---|:--------------------------------------------|
@@ -176,7 +181,8 @@ _Wednesday, June 22_ __TMB / ADMB Coordination__
 | |Breakout sessions|
 |5:00PM|End|
 
-_Thursday, June 23_ __The use of AD in statistical software__
+**Thursday, June 23**
+__The use of AD in statistical software__
 
 |Time|Speaker|Title|
 |---|-----------|--------------------------------------------|
@@ -191,7 +197,8 @@ _Thursday, June 23_ __The use of AD in statistical software__
 |5:00PM||End of day|
 
 
-_Friday, June 24_ __Foundation Meeting and Conclusion__
+**Friday, June 24**
+__Foundation Meeting and Conclusion__
 
 |Time|Activity|
 |---|---|
@@ -205,7 +212,6 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 ||Relocation of project|
 ||Election of officers|
 |4:00PM|End|
-
 
 Participants
 ============
@@ -234,4 +240,5 @@ Participants
 |Allan Hicks|IPHC|
 |Kyle Foreman||
 |Rick Methot||
-
+|Athol Whitten|Remote participation|
+|Jeff Laake|Remote participation|
