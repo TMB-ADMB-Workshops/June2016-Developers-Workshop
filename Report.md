@@ -116,6 +116,8 @@ ADMB-IDE
 --------
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
+_Note: The ADMB-IDE was discussed further during the breakout group[ADMB-IDE 11.5](#groupadmbide)_
+
 Presentations
 -------------
 
@@ -134,7 +136,7 @@ help support the TMB activities and embrace alternative approaches to software d
 
 http://admb-project-org.admb-foundation.org/
 
-The website was discussed further during the breakout group([Website issues](#websiteissues)).
+_Note: The website was discussed further during the breakout group([Website issues](#groupwebsiteissues))._
 
 Nuts in ADMB
 ------------
@@ -145,7 +147,7 @@ Breakout Sessions
 
 The group discussed and developed a list of topics to be covered in breakout sessions:     
 
-  * ADMB-IDE 11.5     
+  * [ADMB-IDE 11.5](#groupadmbide) 
   * cppad_mixed     
   * instructional videos     
   * Nvidia GPU     
@@ -159,7 +161,20 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * Debugging demonstration and documentation reference     
   * Posfun in TMB     
   * Protocol for contributing code     
-  * ([Website issues](#websiteissues))
+  * [Website issues](#groupwebsiteissues)
+
+<a name="groupadmbide"/>
+**ADMB-IDE 11.5**
+
+_Arni, Chris Grandin and Johnoel_
+
+
+Arni provided the list of debp 
+
+https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt
+
+
+
 
 Relative to these tasks, the following lists activities and progress for the breakout groups.
 
@@ -206,7 +221,7 @@ newtonOption(obj,silent=FALSE). However, you will know that they would have been
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
 
-<a name="websiteissues"/>
+<a name="groupwebsiteissues"/>
 **Website issues**
    * John Sibert, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
