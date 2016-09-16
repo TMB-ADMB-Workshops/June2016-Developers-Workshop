@@ -112,24 +112,29 @@ _Foundation Meeting and Conclusion_
 Discussions
 ===========
 
+ADMB-IDE
+--------
+Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
+
 Presentations
 -------------
 
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities
 where ADMB/TMB are being actively used.
 
-[Gavin Fay's experience using TMB with GPU card is available on the githup repository.](
-https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf)    
+Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
 
-[Bob Carpenter's presentation on Stan implementation and issues]( 
-https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf)    
+Bob Carpenter's [presentation](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
 New website
 -----------
 
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
 help support the TMB activities and embrace alternative approaches to software development.
+
 http://admb-project-org.admb-foundation.org/
+
+The website was discussed further during the breakout groups.
 
 Topics for breakout sessions
 ----------------------------
@@ -139,7 +144,7 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * cppad_mixed     
   * instructional videos     
   * Nvidia GPU     
-  * TMB  with GPU     
+  * TMB with GPU
   * Non-normal RE (rotational Bayes)     
   * Cross validation methods     
   * MCMC (Riemann with Langevin updates)     
@@ -204,9 +209,6 @@ newtonOption(obj,silent=FALSE). However, you will know that they would have been
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
    * Additional logos needed in footer
 
-
-Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
-
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
 The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory:
@@ -233,7 +235,9 @@ while another group led by Anders developed a simple script to show that TMB can
 Accomplishments
 ===============
 
-* An exellent instructional video was developed by Mollie, Hans, and Arni.  The video will be added to youtube.  A link will be made public once it is uploaded.
+* Successfully configured the ADMB linux server for GPU development support.   
+Kasper tested and ran numerical functions using R and GPU which showed speed improvements compared to non-gpu runs.
+* An exellent instructional video was developed by Mollie, Hans, and Arni.
 * Created [TMB Users google group](https://groups.google.com/forum/#!forum/tmb-users) so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
 Priorities
@@ -243,18 +247,20 @@ Tasks
 -----
 
 * Automate ADMB-IDE builds  
-_for Arni and Johnoel._
+_for Arni and Johnoel_
 * Move ADMB Website to another web host  
-_for Sibert and Johnoel._
+_for Sibert and Johnoel_
 * Documenting the source code
 * Add DTU Aqua in footer to ADMB website  
-_for Johnoel._
+_for Johnoel_
+* Provide instructional video youtube link
+_for Hans Skaug, Arni and Mollie_
 
 Potential new features
 ----------------------
 
 * Implement NUTS algorithm into ADMB   
-_for Cole, Dave Fournier and Johnoel._
+_for Cole, Dave Fournier and Johnoel_
 
 Participants
 ============
