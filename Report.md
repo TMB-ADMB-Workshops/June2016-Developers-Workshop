@@ -17,18 +17,101 @@ This report summarises the events of the 6th ADMB Developer’s Workshop, a meet
 Participants are included in an appendix to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
 The workshop was broadcast via the internet to allow for remote participation.
 
-Priorities
-==========
+Agenda
+======
 
-The main priorities of the workshop are
+The main **objectives** of the workshop are
 
-1. Plan and develop instructional videos
-2. Coordinate between TMB and ADMB Projects
-3. Further develop MCMC implementations
-4. Review new website design (converted from plone to wordpress)
-5. Hold an ADMB Foundation meeting
+* Plan and develop instructional videos
+* Coordinate between TMB and ADMB Projects
+* Further develop MCMC implementations
+* Review new website design (converted from plone to wordpress)
+* Hold an ADMB Foundation meeting
 
-##Presentations on activities
+Schedule
+--------
+
+The following outlined the agenda and schedule that was followed.
+
+**Monday, June 20**
+
+_Opening and Instructional Videos_
+
+|Time|Activity|
+|:---|:-----------|:--------------------------------------------|
+|9:00AM|Opening: revision and approval of agenda; assignment of repporteurs|
+|10:00AM|Arni Magnusson: ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
+|11:00AM|Discussion|
+|1:00PM|Lunch|
+|2:30PM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
+|3:30AM|Jim Thorson: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
+|4:30PM|Discussion|
+|5:00PM|End|
+
+**Tuesday, June 21**
+
+_Miscellaneous Topics_
+
+|Time|Activity|
+|:---|:-----------|:--------------------------------------------|
+|9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
+|10:00AM|Creation of Instructional videos - Chair Hans Skaug|
+|11:00AM|Split into breakout groups|
+|Noon|Lunch|
+|1:00PM|Breakout groups|
+|2:00-3.00PM|*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
+|3:00-5:00PM|Breakout groups|
+
+**Wednesday, June 22**
+
+_TMB / ADMB Coordination_
+
+|Time|Activity|
+|:---|:--------------------------------------------|
+|9:00AM|Johnoel Ancheta|Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
+| |Breakout sessions|
+|5:00PM|End|
+
+**Thursday, June 23**
+
+_The use of AD in statistical software_
+
+|Time|Speaker|Title|
+|---|-----------|--------------------------------------------|
+|9:00AM|David Fournier |The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models |
+|10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
+|11:00AM||Break |
+|11:30AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
+|1:00PM| **Lunch** |
+|2:00PM|Kasper Kristensen |TMB: Automatic Differentiation and Laplace Approximation|
+|3:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
+|4:00PM|Matthew Supernaw|ATL and Higher-Order Reverse Mode AD|
+|5:00PM||End of day|
+
+
+**Friday, June 24**
+
+_Foundation Meeting and Conclusion_
+
+|Time|Activity|
+|---|---|
+|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
+| |Outreach|
+| |More training workshops|
+| |Fund raising|
+| |Possible relocation of project|
+|2:00PM|ADMB Foundation Meeting|
+||Discuss Articles of Incorporation|
+||Relocation of project|
+||Election of officers|
+|4:00PM|End|
+
+Discussions
+===========
+
+Presentations
+-------------
+
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities
 where ADMB/TMB are being actively used.
 
@@ -38,12 +121,16 @@ https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/p
 [Bob Carpenter's presentation on Stan implementation and issues]( 
 https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf)    
 
-## New website
+New website
+-----------
+
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
 help support the TMB activities and embrace alternative approaches to software development.
 http://admb-project-org.admb-foundation.org/
 
-##Discussion topics and breakout sessions
+Topics for breakout sessions
+----------------------------
+
 The group discussed and developed a list of topics to be covered in breakout sessions:     
   * ADMB-IDE 11.5     
   * cppad_mixed     
@@ -88,7 +175,8 @@ Relative to these tasks, the following lists activities and progress for the bre
    *  Thorson, Kasper, Mollie (testing Friday)
 
 ##Discussions
-Bob Carpenter and Brad Bell led discussionsn about autodiff in general and announced that there will be a workshop in
+
+Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in
 Oxford (still time to submit a poster abstract).
 
 Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
@@ -139,83 +227,22 @@ while another group led by Anders developed a simple script to show that TMB can
 
 A note was made to add DTU Aqua in footer websites;
 
-Agenda and Schedule
-===================
+Accomplishments
+===============
 
-The following outlined the agenda and schedule that was followed.
+* 
 
-**Monday, June 20**
+Priorities
+==========
 
-_Opening and Instructional Videos_
+* Automate ADMB-IDE builds
+* Move ADMB Website to another web host
+* Documenting the source code
 
-|Time|Activity|
-|:---|:-----------|:--------------------------------------------|
-|9:00AM|Opening: revision and approval of agenda; assignment of repporteurs|
-|10:00AM|Arni Magnusson: ADMB-IDE, rolling out version 11.5, people willing to help out? Also, a quick review of TMB-IDE.|
-|11:00AM|Discussion|
-|1:00PM|Lunch|
-|2:30PM|Mollie Brooks: The glmmTMB package for flexible mixed models in R|
-|3:30AM|Jim Thorson: Progress with spatio-temporal analysis of multivariate  (e.g., species or sizes) data using TMB, and how statistical developments might help|
-|4:30PM|Discussion|
-|5:00PM|End|
+Potential new features
+----------------------
 
-**Tuesday, June 21**
-
-_Miscellaneous Topics_
-
-|Time|Activity|
-|:---|:-----------|:--------------------------------------------|
-|9:00AM|Overview of R packages based on ADMB and TMB. Discuss potential new R package, `TMBextras`. Also write up (or find existing write-up?) description of how to create a user-level C++ library.|
-|10:00AM|Creation of Instructional videos - Chair Hans Skaug|
-|11:00AM|Split into breakout groups|
-|Noon|Lunch|
-|1:00PM|Breakout groups|
-|2:00-3.00PM|*PLENARY SESSION:* Subgroups report on initial ideas, progress, and goals|
-|3:00-5:00PM|Breakout groups|
-
-**Wednesday, June 22**
-
-_TMB / ADMB Coordination_
-
-|Time|Activity|
-|:---|:--------------------------------------------|
-|9:00AM|Johnoel Ancheta |Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-| |Breakout sessions|
-|5:00PM|End|
-
-**Thursday, June 23**
-
-_The use of AD in statistical software_
-
-|Time|Speaker|Title|
-|---|-----------|--------------------------------------------|
-|9:00AM|David Fournier |The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models |
-|10:00AM|Brad Bell|cppad_mixed: A C++ Package for Laplace Approximation of Mixed |
-|11:00AM||Break |
-|11:30AM|Bob Carpenter|Implementation and Application of Reverse-Mode Autodiff in Stan|
-|1:00PM| **Lunch** |
-|2:00PM|Kasper Kristensen |TMB: Automatic Differentiation and Laplace Approximation|
-|3:00PM|Cole Monnahan|Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions|
-|4:00PM|Matthew Supernaw|ATL and Higher-Order Reverse Mode AD|
-|5:00PM||End of day|
-
-
-**Friday, June 24**
-
-_Foundation Meeting and Conclusion_
-
-|Time|Activity|
-|---|---|
-|9:00AM|Discussion: How can the TMB and ADMB Projects support one another (Chair Jim Ianelli)|
-| |Outreach|
-| |More training workshops|
-| |Fund raising|
-| |Possible relocation of project|
-|2:00PM|ADMB Foundation Meeting|
-||Discuss Articles of Incorporation|
-||Relocation of project|
-||Election of officers|
-|4:00PM|End|
+* Implement NUTS algorithm into ADMB
 
 Participants
 ============
