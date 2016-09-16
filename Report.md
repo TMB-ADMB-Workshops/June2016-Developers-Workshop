@@ -253,7 +253,7 @@ _for Sibert and Johnoel_
 * Documenting the source code
 * Add DTU Aqua in footer to ADMB website  
 _for Johnoel_
-* Provide instructional video youtube link
+* Provide instructional video youtube link  
 _for Hans Skaug, Arni and Mollie_
 
 Potential new features
