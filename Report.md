@@ -1,4 +1,5 @@
-#Developers Workshop 2016 Report
+Developers Workshop 2016 Report
+===============================
 
 June 20 - 24, 2016
 
@@ -9,7 +10,7 @@ Seattle, Washington, USA
 ![alt text](images/DevWS6.png "Autodifferentiation is cool!")
 
 Description
-------------
+===========
 
 This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers and were joined by invited European and American experts. These experts introduced their experiences in software development for similar types of challenges. The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project. 
 
@@ -17,7 +18,7 @@ Participants are included in an appendix to this document. Jim Ianelli chaired t
 The workshop was broadcast via the internet to allow for remote participation.
 
 Priorities
-----------
+==========
 
 The main priorities of the workshop are
 
@@ -207,7 +208,7 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 
 
 Participants
-------------
+============
 
 |Name|Notes|
 |---|---|
