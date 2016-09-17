@@ -11,13 +11,15 @@ Table of Contents
 -----------------
 
 * [Description](#description)
-* [Agenda and Schedule](#agenda)
-* [Breakout Groups](#breakoutgroups)
+* [Agenda](#agenda)
+  * [Schedule](#schedule)
+  * [Breakout Groups](#breakoutgroups)
 * [Discussions](#discussions)
-* [Accomplishments](#accomplishments)
-* [Priorities](#priorities)
 * [ADMB Foundation Meeting](#admbfoundation)
-* [Participants](#participants)
+* [Accomplishments](#accomplishments)
+  * [Priorities](#priorities)
+* [Appendix](#appendix)
+  * [Participants](#participants)
 
 ![alt text](images/DevWS6.png "Autodifferentiation is cool!")
 
@@ -282,6 +284,30 @@ while another group led by Anders developed a simple script to show that TMB can
 <a name="groupsparse"/>TMB Users</a>
 : Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
 
+<a name="admbfoundation"/>
+ADMB Foundation Meeting
+=======================
+
+Funding
+-------
+
+Steve Martell suggested getting funding from the commercial fisheries.  They are looking to fund real-time fish tracking tools.
+
+Voted on new members:
+
+* Allan Hicks
+* Kasper Kristensen
+* James Thorson
+* Cole Monnahan
+* Gavin Faye
+
+Elected new board member officers:
+
+* President is Arni Magnusson.
+* Treasurer is Allan Hicks.
+* Secretary is Mollie Brooks.
+
+<a name="appendix"/>
 <a name="accomplishments"/>
 Accomplishments
 ===============
@@ -313,35 +339,10 @@ Anders Nielsen urges to keep maintaining more than one tool for automatic differ
 
 <img src="http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg" width="150px" alt="Collaboration"/>
 
-Collaboration with the projects is needed to keep 
-
+As the workshop has shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
 Rick Methot and Matthew Supernaw were in attendance.
 
 
-<a name="admbfoundation"/>
-ADMB Foundation Meeting
-=======================
-
-Funding
--------
-
-Steve Martell suggested getting funding from the commercial fisheries.  They are looking to fund real-time tools from tracking catch.
-
-Voted on new members:
-
-* Allan Hicks
-* Kasper Kristensen
-* James Thorson
-* Cole Monnahan
-* Gavin Faye
-
-Elected new board member officers:
-
-* President is Arni Magnusson.
-* Treasurer is Allan Hicks.
-* Secretary is Mollie Brooks.
-
-<a name="appendix"/>
 Appendix
 ========
 
