@@ -310,7 +310,7 @@ Collaboration
 
 Anders Nielsen stated the importance of having more than one tool for automatic differention.
 
-<img src="images/DevWS6.png" width="100px" alt="Collaboration"/>
+<img src="http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg" width="150px" alt="Collaboration"/>
 
 <a name="admbfoundation"/>
 ADMB Foundation Meeting
