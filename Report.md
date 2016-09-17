@@ -1,4 +1,4 @@
-Developers Workshop 2016 Report
+Report Developers Workshop 2016
 ===============================
 
 June 20 - 24, 2016
@@ -7,8 +7,18 @@ University of Washington, School of Aquatic and Fisheries Sciences
 
 Seattle, Washington, USA
 
+Table of Contents
+* [Description](#description)
+* [Agenda](#agenda)
+* [Breakout Groups](#breakoutgroups)
+* [Discussion](#discussion)
+* [Accomplishments](#accoumplishments)
+* [Priorities](#priorities)
+* [Participants](#participants)
+
 ![alt text](images/DevWS6.png "Autodifferentiation is cool!")
 
+<a name="description"/>
 Description
 ===========
 
@@ -17,6 +27,7 @@ This report summarises the events of the 6th ADMB Developer’s Workshop, a meet
 Participants are included in an appendix to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
 The workshop was broadcast via the internet to allow for remote participation.
 
+<a name="agenda"/>
 Agenda
 ======
 
@@ -70,9 +81,9 @@ _TMB / ADMB Coordination_
 |Time|Speaker|Activity|
 |:---|:------|:-------|
 |9:00AM|Johnoel Ancheta|Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
-|||Breakout sessions|
+|||Breakout groups|
 |1:00PM|| **Lunch** |
-|||Breakout sessions|
+|||Breakout groups|
 |5:00PM||**End**|
 
 **Thursday, June 23**
@@ -91,7 +102,6 @@ _The use of AD in statistical software_
 |4:00PM|Matthew Supernaw|ATL and Higher-Order Reverse Mode AD|
 |5:00PM||**End**|
 
-
 **Friday, June 24**
 
 _Foundation Meeting and Conclusion_
@@ -109,17 +119,9 @@ _Foundation Meeting and Conclusion_
 ||Election of officers|
 |4:00PM|**End**|
 
-Discussions
-===========
-
-ADMB-IDE
---------
-Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
-
-_Note: The ADMB-IDE was discussed further during the breakout group[ADMB-IDE 11.5](#groupadmbide)_
-
+<a name="presentations"/>
 Presentations
--------------
+=============
 
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities
 where ADMB/TMB are being actively used.
@@ -128,22 +130,9 @@ Gavin Fay's experience using TMB with GPU card is [available](https://github.com
 
 Bob Carpenter's [presentation](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
-New website
------------
-
-The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
-help support the TMB activities and embrace alternative approaches to software development.
-
-http://admb-project-org.admb-foundation.org/
-
-_Note: The website was discussed further during the breakout group([Website issues](#groupwebsiteissues))._
-
-Nuts in ADMB
-------------
-Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
-
-Breakout Sessions
------------------
+<a name="breakoutgroups"/>
+Breakout Groups
+===============
 
 The group discussed and developed a list of topics to be covered in breakout sessions:     
 
@@ -162,18 +151,60 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * Posfun in TMB     
   * Protocol for contributing code     
   * [Website issues](#groupwebsiteissues)
+  * 
+
+Other topics
+------------
+
+* Rank order -1 problem
+* 3rd order derivatives
+* [NUTS algorithm in ADMB](#nutsinadmb)
+* Sparseness detection
+
+* Get install_github() to do source("install_windows.R") when Windows is detected
+* Non-normal RE (rotational Bayes)  
+* Create TMB page on Wikipedia
+
+   * Debugging demonstration and documentation reference
+   * Everyone
+   * glmmTMB publication planning
+
+<a name="discussions"/>
+Discussions
+===========
+
+<a name="admbide"/>
+ADMB-IDE
+--------
+Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
 <a name="groupadmbide"/>
-**ADMB-IDE 11.5**
+**Breakout Group (ADMB-IDE)**
 
 _Arni, Chris Grandin and Johnoel_
 
+Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started automating the ide build step into the buildbot.
 
-Arni provided the list of debp 
+<a name="newwebsite"/>
+New website
+-----------
 
-https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt
+The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
+help support the TMB activities and embrace alternative approaches to software development.
 
+http://admb-project-org.admb-foundation.org/
 
+<a name="groupwebsiteissues"/>
+**Breakout Group (Website issues)**
+   * John Sibert, Johnoel, Mollie
+   * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
+   * Additional logos needed in footer
+
+<a name="nutsinadmb"/>
+Nuts algorithm in ADMB
+----------------------
+
+Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
 
 
 Relative to these tasks, the following lists activities and progress for the breakout groups.
@@ -220,13 +251,6 @@ The following additional items were noted:
 newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
-
-<a name="groupwebsiteissues"/>
-**Website issues**
-   * John Sibert, Johnoel, Mollie
-   * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
-   * Additional logos needed in footer
-
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
 The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory:
@@ -235,20 +259,7 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 A sub-group endeavored torun cppad_mixed, using cppad without the TMB layer
 while another group led by Anders developed a simple script to show that TMB can be used for non-R folks.
 
-###Other topics
-* Rank order -1 problem
-* 3rd order derivatives
-* NUTS algorithm to be added to ADMB
-* Sparseness detection
-
-* Get install_github() to do source("install_windows.R") when Windows is detected
-* Non-normal RE (rotational Bayes)  
-* Create TMB page on Wikipedia
-
-   * Debugging demonstration and documentation reference
-   * Everyone
-   * glmmTMB publication planning
-
+<a name="accomplishments"/>
 Accomplishments
 ===============
 
@@ -257,6 +268,7 @@ Kasper tested and ran numerical functions using R and GPU which showed speed imp
 * An exellent instructional video was developed by Mollie, Hans, and Arni.
 * Created [TMB Users google group](https://groups.google.com/forum/#!forum/tmb-users) so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
+<a name="priorities"/>
 Priorities
 ==========
 
@@ -264,14 +276,10 @@ Tasks
 -----
 
 * Automate ADMB-IDE builds  
-_for Arni and Johnoel_
 * Move ADMB Website to another web host  
-_for Sibert and Johnoel_
 * Documenting the source code
 * Add DTU Aqua in footer to ADMB website  
-_for Johnoel_
 * Provide instructional video youtube link  
-_for Hans Skaug, Arni and Mollie_
 
 Potential new features
 ----------------------
@@ -285,6 +293,7 @@ Collaboration
 
 Anders Nielsen stated the importance of having more than one tool for automatic differention.
 
+<a name="participants"/>
 Participants
 ============
 
