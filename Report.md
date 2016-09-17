@@ -8,7 +8,7 @@ University of Washington, School of Aquatic and Fisheries Sciences
 Seattle, Washington, USA
 
 Table of Contents
-=================
+-----------------
 
 * [Description](#description)
 * [Agenda and Schedule](#agenda)
@@ -321,9 +321,9 @@ Voted on new members:
 
 Voted on new board member officers:
 
-President is Arni Magnusson.
-Treasurer is Allan Hicks.
-Secretary is Mollie Brooks.
+* President is Arni Magnusson.
+* Treasurer is Allan Hicks.
+* Secretary is Mollie Brooks.
 
 <a name="participants"/>
 Participants
