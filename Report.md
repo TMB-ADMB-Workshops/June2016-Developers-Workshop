@@ -11,8 +11,8 @@ Table of Contents
 * [Description](#description)
 * [Agenda](#agenda)
 * [Breakout Groups](#breakoutgroups)
-* [Discussion](#discussion)
-* [Accomplishments](#accoumplishments)
+* [Discussion](#discussions)
+* [Accomplishments](#accomplishments)
 * [Priorities](#priorities)
 * [Participants](#participants)
 
