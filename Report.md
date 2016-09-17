@@ -310,6 +310,8 @@ Collaboration
 
 Anders Nielsen stated the importance of having more than one tool for automatic differention.
 
+<img src="images/DevWS6.png" width="100px" alt="Collaboration"/>
+
 <a name="admbfoundation"/>
 ADMB Foundation Meeting
 =======================
