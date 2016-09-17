@@ -8,12 +8,15 @@ University of Washington, School of Aquatic and Fisheries Sciences
 Seattle, Washington, USA
 
 Table of Contents
+=================
+
 * [Description](#description)
-* [Agenda](#agenda)
+* [Agenda and Schedule](#agenda)
 * [Breakout Groups](#breakoutgroups)
-* [Discussion](#discussions)
+* [Discussions](#discussions)
 * [Accomplishments](#accomplishments)
 * [Priorities](#priorities)
+* [ADMB Foundation Meeting](#admbfoundation)
 * [Participants](#participants)
 
 ![alt text](images/DevWS6.png "Autodifferentiation is cool!")
@@ -149,9 +152,8 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)     
   * Debugging demonstration and documentation reference     
   * Posfun in TMB     
-  * Protocol for contributing code     
+  * [Protocol for contributing code](#groupcontributecode)
   * [Website issues](#groupwebsiteissues)
-  * 
 
 Other topics
 ------------
@@ -172,6 +174,9 @@ Other topics
 <a name="discussions"/>
 Discussions
 ===========
+
+Relative to these tasks, the following lists activities and progress for the breakout groups.
+Also, [other discussions](#otherdiscussions) were noted.
 
 <a name="admbide"/>
 ADMB-IDE
@@ -216,9 +221,9 @@ Nvidia GPU
 
 * Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
 
-
-Relative to these tasks, the following lists activities and progress for the breakout groups.
-
+<a name="groupcontributecode"/>
+Protocol for contributing code
+------------------------------
 * R package of contributed functions 
    * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page 
       * He’s working on a function as part of package to install these into right place so they get compiled
@@ -243,8 +248,9 @@ Relative to these tasks, the following lists activities and progress for the bre
 * Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp#example_cpp
    *  Thorson, Kasper, Mollie (testing Friday)
 
-Discussions
------------
+<a name="groupother"/>
+Other Discussions
+-----------------
 
 Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in
 Oxford (still time to submit a poster abstract).
@@ -263,10 +269,9 @@ newtonOption(obj,silent=FALSE). However, you will know that they would have been
 
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
-The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory:
-   adcomp/tmb_examples/validation an example exists.
+The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation).
 
-A sub-group endeavored torun cppad_mixed, using cppad without the TMB layer
+A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer
 while another group led by Anders developed a simple script to show that TMB can be used for non-R folks.
 
 <a name="accomplishments"/>
@@ -301,6 +306,24 @@ Collaboration
 -------------
 
 Anders Nielsen stated the importance of having more than one tool for automatic differention.
+
+<a name="admbfoundation"/>
+ADMB Foundation Meeting
+=======================
+
+Voted on new members:
+
+* Allan Hicks
+* Kasper Kristensen
+* James Thorson
+* Cole Monnahan
+* Gavin Faye
+
+Voted on new board member officers:
+
+President is Arni Magnusson.
+Treasurer is Allan Hicks.
+Secretary is Mollie Brooks.
 
 <a name="participants"/>
 Participants
