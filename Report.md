@@ -198,6 +198,9 @@ Instructional videos
 New website
 -----------
 
+The www.admb-project.org site should be moved to a new host site because of the uncertainty for support from NCEAS.
+Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages. 
+
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
 help support the TMB activities and embrace alternative approaches to software development.
 
@@ -279,9 +282,9 @@ Accomplishments
 ===============
 
 * Successfully configured the ADMB linux server for GPU development support.   
-Kasper tested and ran numerical functions using R and GPU which showed speed improvements compared to non-gpu runs.
+Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single cpu runs.
 * An excellent instructional video was developed by Mollie, Hans, and Arni.
-* Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the github repository.
+* Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
 
 <a name="priorities"/>
 Priorities
