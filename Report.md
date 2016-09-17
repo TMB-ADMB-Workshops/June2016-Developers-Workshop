@@ -142,7 +142,9 @@ Bob Carpenter's [presentation](https://github.com/TMB-ADMB-Workshops/June2016-De
 Breakout Groups
 ===============
 
-Below is a list of topics for the breakout groups to be discussed:
+Below is a list of topics for the breakout groups:
+
+_Topics with links were discussed._
 
 * [ADMB-IDE 11.5](#groupadmbide)
 * cppad_mixed
