@@ -25,10 +25,13 @@ Table of Contents
 Description
 ===========
 
-This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers and were joined by invited European and American experts. These experts introduced their experiences in software development for similar types of challenges. The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project. 
+This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers and were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges. 
 
-Participants are included in an appendix to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
-The workshop was broadcast via the internet to allow for remote participation.
+The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project.
+
+Participants are included in an [appendix](#appendix) to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
+
+The workshop was broadcasted via the internet to allow for remote participation.
 
 <a name="agenda"/>
 Agenda
@@ -137,39 +140,31 @@ Bob Carpenter's [presentation](https://github.com/TMB-ADMB-Workshops/June2016-De
 Breakout Groups
 ===============
 
-The group discussed and developed a list of topics to be covered in breakout sessions:     
+Below is a list of topics for the breakout groups to be discussed:
 
-  * [ADMB-IDE 11.5](#groupadmbide) 
-  * cppad_mixed     
-  * [Instructional videos](#groupvideos)     
-  * [Nvidia GPU](#groupnvidiagpu)     
-  * TMB with GPU
-  * Non-normal RE (rotational Bayes)     
-  * Cross validation methods     
-  * MCMC (Riemann with Langevin updates)     
-  * XSSA demo of Sibert     
-  * GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson     
-  * Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)     
-  * Debugging demonstration and documentation reference     
-  * Posfun in TMB     
-  * [Protocol for contributing code](#groupcontributecode)
-  * [Website issues](#groupwebsiteissues)
-
-Other topics
-------------
-
+* [ADMB-IDE 11.5](#groupadmbide)
+* cppad_mixed
+* [Instructional videos](#groupvideos)
+* [Nvidia GPU](#groupnvidiagpu)
+* TMB with GPU
+* Non-normal RE (rotational Bayes)
+* Cross validation methods
+* MCMC (Riemann with Langevin updates)
+* XSSA demo of Sibert
+* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
+* Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)
+* Debugging demonstration and documentation reference
+* [Discuss getting better sparseness detection in ADMB](#groupsparse)
+* Posfun in TMB
+* [Protocol for contributing code](#groupcontributecode)
+* [Website issues](#groupwebsiteissues)
 * Rank order -1 problem
 * 3rd order derivatives
 * [NUTS algorithm in ADMB](#nutsinadmb)
-* Sparseness detection
-
 * Get install_github() to do source("install_windows.R") when Windows is detected
-* Non-normal RE (rotational Bayes)  
+* Non-normal RE (rotational Bayes)
 * Create TMB page on Wikipedia
-
-   * Debugging demonstration and documentation reference
-   * Everyone
-   * glmmTMB publication planning
+* glmmTMB publication planning
 
 <a name="discussions"/>
 Discussions
@@ -194,23 +189,25 @@ Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-proje
 Instructional videos
 --------------------
 
+* An excellent instructional video was developed by Mollie, Hans, and Arni.
+
 <a name="newwebsite"/>
 New website
 -----------
 
 The www.admb-project.org site should be moved to a new host site because of the uncertainty for support from NCEAS.
-Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages. 
+Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages.
 
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
 help support the TMB activities and embrace alternative approaches to software development.
 
-http://admb-project-org.admb-foundation.org/
+The draft website is at 'http://admb-project-org.admb-foundation.org/'.
 
 <a name="groupwebsiteissues"/>
 **Breakout Group (Website issues)**
    * John Sibert, Johnoel, Mollie
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
-   * Additional logos needed in footer
+   * Additional logos (DTU and Coin-R) are needed in footer.
 
 <a name="nutsinadmb"/>
 Nuts algorithm in ADMB
@@ -223,12 +220,14 @@ Nvidia GPU
 ----------
 
 * Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
+* Successfully configured the ADMB linux server for Nvidia GPU development support.  
+Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
 
 <a name="groupcontributecode"/>
 Protocol for contributing code
 ------------------------------
-* R package of contributed functions 
-   * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page 
+* R package of contributed functions
+   * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page
       * He’s working on a function as part of package to install these into right place so they get compiled
    * Contains subdirectories that can be installed using devtools R package installer
    * Examples include:
@@ -260,47 +259,49 @@ Oxford (still time to submit a poster abstract).
 
 An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
 
-Matthew's AD example comparing gradients with ADMB and TMB was double checked.
+<a name="groupgradients">Compare gradients</a>
+* Matthew's AD example comparing gradients with ADMB and TMB was double checked.
+* Anders Nielsen have done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the betai did not produce similar gradients.  It was discovered the betai function in ADMB was incorrect.  They already have a fix and will merge into the admb master.
 
 Several began planning spatio-temporal textbook using TMB.
 
 The following additional items were noted:
-* Include an option to suppress warnings from CHOLMOD during optimization 
+* Include an option to suppress warnings from CHOLMOD during optimization
    * Notes: Now the warnings are disabled by default. They can be activated by adding
 newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
-It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
+<a name="groupsparse"/>Sparse Detection</a>
+: It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
 The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation).
 
 A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer
 while another group led by Anders developed a simple script to show that TMB can be used for non-R folks.
 
+<a name="groupsparse"/>TMB Users</a>
+: Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
+
 <a name="accomplishments"/>
 Accomplishments
 ===============
 
-* Successfully configured the ADMB linux server for GPU development support.   
-Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single cpu runs.
-* An excellent instructional video was developed by Mollie, Hans, and Arni.
-* Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
+One of the objectives of the workshop is to identify priorites for the projects which include tasks and potential new features.
 
 <a name="priorities"/>
 Priorities
-==========
+----------
 
-Tasks
------
+**Tasks**
 
-* Automate ADMB-IDE builds  
-* Website: Move from NCEAS to another web host  
+* Automate ADMB-IDE builds
+* Website: Move from NCEAS to another web host
 * Documenting the source code
-* Website: Add DTU Aqua in footer  
-* Provide instructional video youtube link  
+* Website: Add DTU Aqua in footer
+* Video: Provide youtube link to instructional video
+* ADMB: Merge betai fixes
 
-Potential new features
-----------------------
+**Potential new features**
 
 * [NUTS algorithm into ADMB](#nutsinadmb) - Cole
 * [GPU Parallelization](#groupnvidiagpu) in ADMB code
@@ -308,13 +309,23 @@ Potential new features
 Collaboration
 -------------
 
-Anders Nielsen stated the importance of having more than one tool for automatic differention.
+Anders Nielsen urges to keep maintaining more than one tool for automatic differention.
 
 <img src="http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg" width="150px" alt="Collaboration"/>
+
+Collaboration with the projects is needed to keep 
+
+Rick Methot and Matthew Supernaw were in attendance.
+
 
 <a name="admbfoundation"/>
 ADMB Foundation Meeting
 =======================
+
+Funding
+-------
+
+Steve Martell suggested getting funding from the commercial fisheries.  They are looking to fund real-time tools from tracking catch.
 
 Voted on new members:
 
@@ -324,15 +335,19 @@ Voted on new members:
 * Cole Monnahan
 * Gavin Faye
 
-Voted on new board member officers:
+Elected new board member officers:
 
 * President is Arni Magnusson.
 * Treasurer is Allan Hicks.
 * Secretary is Mollie Brooks.
 
+<a name="appendix"/>
+Appendix
+========
+
 <a name="participants"/>
 Participants
-============
+------------
 
 |Name|Notes|
 |---|---|
@@ -343,7 +358,7 @@ Participants
 |Anders Nielsen||
 |Hans Skaug||
 |Arni Magnusson||
-|Kasper Kristensen| Developer TMB | 
+|Kasper Kristensen| Developer TMB |
 |Brad Bell| Developer cppad |
 |Mollie Brooks||
 |Matthew Supernaw| Developer atl |
