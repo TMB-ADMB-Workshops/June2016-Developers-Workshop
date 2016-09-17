@@ -138,7 +138,7 @@ The group discussed and developed a list of topics to be covered in breakout ses
 
   * [ADMB-IDE 11.5](#groupadmbide) 
   * cppad_mixed     
-  * instructional videos     
+  * [Instructional videos](#groupvideos)     
   * [Nvidia GPU](#groupnvidiagpu)     
   * TMB with GPU
   * Non-normal RE (rotational Bayes)     
@@ -184,6 +184,10 @@ Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to he
 _Arni, Chris Grandin and Johnoel_
 
 Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started automating the ide build step into the buildbot.
+
+<a name="groupvideos"/>
+Instructional videos
+--------------------
 
 <a name="newwebsite"/>
 New website
@@ -271,7 +275,7 @@ Accomplishments
 
 * Successfully configured the ADMB linux server for GPU development support.   
 Kasper tested and ran numerical functions using R and GPU which showed speed improvements compared to non-gpu runs.
-* An exellent instructional video was developed by Mollie, Hans, and Arni.
+* An excellent instructional video was developed by Mollie, Hans, and Arni.
 * Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
 <a name="priorities"/>
