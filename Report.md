@@ -139,7 +139,7 @@ The group discussed and developed a list of topics to be covered in breakout ses
   * [ADMB-IDE 11.5](#groupadmbide) 
   * cppad_mixed     
   * instructional videos     
-  * Nvidia GPU     
+  * [Nvidia GPU](#groupnvidiagpu)     
   * TMB with GPU
   * Non-normal RE (rotational Bayes)     
   * Cross validation methods     
@@ -206,6 +206,12 @@ Nuts algorithm in ADMB
 
 Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
 
+<a name="groupnvidiagpu"/>
+Nvidia GPU
+----------
+
+* Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
+
 
 Relative to these tasks, the following lists activities and progress for the breakout groups.
 
@@ -266,7 +272,7 @@ Accomplishments
 * Successfully configured the ADMB linux server for GPU development support.   
 Kasper tested and ran numerical functions using R and GPU which showed speed improvements compared to non-gpu runs.
 * An exellent instructional video was developed by Mollie, Hans, and Arni.
-* Created [TMB Users google group](https://groups.google.com/forum/#!forum/tmb-users) so that users can answer each other's questions rather than load up the "issues" on the github repository.
+* Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the github repository.
 
 <a name="priorities"/>
 Priorities
@@ -276,17 +282,16 @@ Tasks
 -----
 
 * Automate ADMB-IDE builds  
-* Move ADMB Website to another web host  
+* Website: Move from NCEAS to another web host  
 * Documenting the source code
-* Add DTU Aqua in footer to ADMB website  
+* Website: Add DTU Aqua in footer  
 * Provide instructional video youtube link  
 
 Potential new features
 ----------------------
 
-* Implement NUTS algorithm into ADMB   
-_for Cole, Dave Fournier and Johnoel_
-* Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
+* [NUTS algorithm into ADMB](#nutsinadmb) - Cole
+* [GPU Parallelization](#groupnvidiagpu) in ADMB code
 
 Collaboration
 -------------
