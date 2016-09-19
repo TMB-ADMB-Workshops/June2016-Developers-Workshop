@@ -170,7 +170,7 @@ _Topics with links were discussed._
 * [Nvidia GPU](#groupnvidiagpu)
 * TMB with GPU
 * Non-normal RE (rotational Bayes)
-* Cross validation methods
+* [Cross validation methods](#groupvalidation)
 * MCMC (Riemann with Langevin updates)
 * XSSA demo of Sibert
 * GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
@@ -293,20 +293,24 @@ The following additional items were noted:
 newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
-<a name="groupsparse"/>Sparse Detection</a>
-: It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
+**<a name="groupsparse"/>Sparse Detection</a>**
+
+It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
+
+**<a name="groupvalidation"/>Cross validation methods</a>**
 
 The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation).
 
-A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
+**<a name="groupsparse"/>TMB Script</a>**
 
-TMB script:
+A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
 
 ```
 echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 ```
 
 **<a name="groupsparse"/>TMB Users</a>**
+
 Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
 
 <a name="admbfoundation"/>
