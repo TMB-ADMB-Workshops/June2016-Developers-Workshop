@@ -218,6 +218,8 @@ The draft website is at http://admb-project-org.admb-foundation.org/.
 Breakout Groups
 ---------------
 
+Each group presented a short report on the groups effort.
+
 **<a name="groupadmbide">ADMB-IDE</a>** 
 
 _Arni, Chris Grandin and Johnoel_
