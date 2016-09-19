@@ -135,11 +135,11 @@ Presentations
 
 Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/admb-tmb-ide/admb-ide.pdf), [TMB-IDE](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/admb-tmb-ide/tmb-ide.pdf) and [Virtual TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/admb-tmb-ide/virtual-tmb.pdf).
 
-Jim Thorson presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
+Jim Thorson's presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
 John Sibert's presentation [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
 
-Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
+On Thursday, the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
 
 David Fournier's presentation [The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models](). **N/A**
 
