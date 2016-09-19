@@ -156,8 +156,10 @@ Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](). **N/A*
 Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
 
 <a name="breakoutgroups"/>
-Breakout Groups
-===============
+Breakout Groups Topics
+======================
+
+Breakout group topics were developed at the workshop.
 
 Below is a list of topics for the breakout groups:
 
