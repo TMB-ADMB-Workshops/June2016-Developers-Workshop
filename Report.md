@@ -126,8 +126,9 @@ _Foundation Meeting and Conclusion_
 Presentations
 =============
 
-Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities
-where ADMB/TMB are being actively used.
+Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
+
+Jim Thorson presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
 Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
 
