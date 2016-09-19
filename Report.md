@@ -136,8 +136,6 @@ Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-pr
 
 Jim Thorson presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
-Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
-
 John Sibert's presentation [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
 
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
@@ -168,11 +166,11 @@ _Topics with links were discussed._
 * cppad_mixed
 * [Instructional videos](#groupvideos)
 * [Nvidia GPU](#groupnvidiagpu)
-* TMB with GPU
+* [TMB with GPU](#grouptmbgpu)
 * Non-normal RE (rotational Bayes)
 * [Cross validation methods](#groupvalidation)
 * MCMC (Riemann with Langevin updates)
-* [XSSA demo of Sibert]
+* [XSSA demo of Sibert](#groupxssa)
 * GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
 * [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
 * Debugging demonstration and documentation reference
@@ -231,20 +229,6 @@ The draft website is at http://admb-project-org.admb-foundation.org/.
    * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
    * Additional logos (DTU and Coin-R) are needed in footer.
 
-<a name="nutsinadmb"/>
-Nuts algorithm in ADMB
-----------------------
-
-Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
-
-<a name="groupnvidiagpu"/>
-Nvidia GPU
-----------
-
-* Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
-* Successfully configured the ADMB linux server for Nvidia GPU development support.  
-Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
-
 <a name="groupcontributecode"/>
 Protocol for contributing code
 ------------------------------
@@ -276,8 +260,17 @@ Protocol for contributing code
 Breakout Groups
 ---------------
 
+<a name="groupnvidiagpu">Nvidia GPU</a>**
 
-**<a name="groupgradients">XSSA demo of Sibert</a>**
+* Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
+* Successfully configured the ADMB linux server for Nvidia GPU development support.  
+Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
+
+<a name="grouptmbgpu">TMB with GPU</a>**
+
+* Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
+
+**<a name="groupxssa">XSSA demo of Sibert</a>**
 
 * See the XSSA code repository at [State-space Stock Assessment with population exchange](https://github.com/johnrsibert/XSSA).
 
@@ -310,7 +303,11 @@ echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 
 Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
 
-**<a name="additonal"/>Additional Notes</a>**
+**<a name="nutsinadmb">Nuts algorithm in ADMB</a>**
+
+Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
+
+**<a name="otherdiscussions"/>Other Discussions</a>**
 
 * Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in Oxford (still time to submit a poster abstract).
 
@@ -350,7 +347,6 @@ Elected new board member officers:
 * Treasurer is Allan Hicks.
 * Secretary is Mollie Brooks.
 
-<a name="appendix"/>
 <a name="accomplishments"/>
 Accomplishments
 ===============
@@ -385,7 +381,7 @@ Anders Nielsen urges to keep maintaining more than one tool for automatic differ
 As the workshop has shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
 Rick Methot and Matthew Supernaw were in attendance.
 
-
+<a name="appendix"/>
 Appendix
 ========
 
