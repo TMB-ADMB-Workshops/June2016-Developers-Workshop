@@ -147,7 +147,7 @@ Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation o
 
 Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
-Kasper Kristensen presentation [Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf).
+Kasper Kristensen's presentation [Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf).
 
 Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/HMC-in-ADMB-and-TMB.pdf).
 
@@ -159,7 +159,7 @@ Breakout Groups Topics
 
 Breakout group topics were developed at the workshop.
 
-Below is a list of topics for the breakout groups:
+Below is created list of topics for the breakout groups:
 
 _Topics with links were discussed._
 
@@ -197,6 +197,8 @@ Also, [other discussions](#otherdiscussions) were noted.
 **<a name="admbide">ADMB-IDE</a>**
 
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
+
+Also, see breakout group discussions [ADMB-IDE](#groupadmbide).
 
 **<a name="groupvideos">Instructional videos</a>**
 
