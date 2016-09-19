@@ -216,9 +216,10 @@ Breakout Groups
 ---------------
 
 **<a name="groupadmbide">ADMB-IDE</a>** 
+
 _Arni, Chris Grandin and Johnoel_
 
-Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started automating the ide build step into the buildbot.
+Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started configuring the ide build procedure into the automated builds ([buildbot](http://buildbot.admb-project.org/)).
 
 **<a name="groupcontributecode"/>Protocol for contributing code</a>**
 
