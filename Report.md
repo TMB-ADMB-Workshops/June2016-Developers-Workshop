@@ -13,9 +13,10 @@ Table of Contents
 * [Description](#description)
 * [Agenda](#agenda)
   * [Schedule](#schedule)
-  * [Breakout Groups](#breakoutgroups)
+  * [Breakout Groups Topics](#breakoutgroups)
 * [Presentations](#presentations)
 * [Discussions](#discussions)
+  * [Breakout Groups Discussions](#disscussionbreakoutgroups)
 * [ADMB Foundation Meeting](#admbfoundation)
 * [Accomplishments](#accomplishments)
   * [Priorities](#priorities)
@@ -211,7 +212,7 @@ help support the TMB activities and embrace alternative approaches to software d
 
 The draft website is at http://admb-project-org.admb-foundation.org/.
 
-<a name="groupother"/>
+<a name="discussionbreakoutgroup"/>
 Breakout Groups
 ---------------
 
