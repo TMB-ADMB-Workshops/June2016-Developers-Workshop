@@ -193,17 +193,9 @@ Discussions
 Relative to these tasks, the following lists activities and progress for the breakout groups.
 Also, [other discussions](#otherdiscussions) were noted.
 
-<a name="admbide"/>
-ADMB-IDE
---------
+**<a name="admbide">ADMB-IDE</a>**
+
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
-
-<a name="groupadmbide"/>
-**Breakout Group (ADMB-IDE)**
-
-_Arni, Chris Grandin and Johnoel_
-
-Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started automating the ide build step into the buildbot.
 
 <a name="groupvideos"/>
 Instructional videos
@@ -227,6 +219,11 @@ The draft website is at http://admb-project-org.admb-foundation.org/.
 <a name="groupother"/>
 Breakout Groups
 ---------------
+
+**<a name="groupadmbide">ADMB-IDE</a>** 
+_Arni, Chris Grandin and Johnoel_
+
+Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started automating the ide build step into the buildbot.
 
 **<a name="groupcontributecode"/>Protocol for contributing code</a>**
 
