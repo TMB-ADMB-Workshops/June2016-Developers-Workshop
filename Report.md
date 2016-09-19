@@ -153,10 +153,6 @@ Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current s
 
 Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](). **N/A**
 
-**Collaboration ADMB and TMB**
-
-Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
-
 <a name="breakoutgroups"/>
 Breakout Groups Topics
 ======================
@@ -382,7 +378,10 @@ Anders Nielsen urges to keep maintaining more than one tool for automatic differ
 
 <img src="http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg" width="150px" alt="Collaboration"/>
 
-As the workshop has shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
+As the breakout groups has shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
+
+Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
+
 Rick Methot and Matthew Supernaw were in attendance.
 
 <a name="appendix"/>
