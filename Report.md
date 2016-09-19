@@ -306,8 +306,8 @@ TMB script:
 echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 ```
 
-<a name="groupsparse"/>TMB Users</a>
-: Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
+**<a name="groupsparse"/>TMB Users</a>**
+Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
 
 <a name="admbfoundation"/>
 ADMB Foundation Meeting
