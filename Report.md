@@ -223,15 +223,13 @@ help support the TMB activities and embrace alternative approaches to software d
 
 The draft website is at http://admb-project-org.admb-foundation.org/.
 
-<a name="groupwebsiteissues"/>
-**Breakout Group (Website issues)**
-   * John Sibert, Johnoel, Mollie
-   * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
-   * Additional logos (DTU and Coin-R) are needed in footer.
 
-<a name="groupcontributecode"/>
-Protocol for contributing code
-------------------------------
+<a name="groupother"/>
+Breakout Groups
+---------------
+
+**<a name="groupcontributecode"/>Protocol for contributing code</a>**
+
 * R package of contributed functions
    * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page
       * He’s working on a function as part of package to install these into right place so they get compiled
@@ -256,9 +254,11 @@ Protocol for contributing code
 * Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
    *  Thorson, Kasper, Mollie (testing Friday)
 
-<a name="groupother"/>
-Breakout Groups
----------------
+**<a name="groupwebsiteissues">Breakout Group (Website issues)</a>**
+
+* By John Sibert, Johnoel and Mollie.
+* Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
+* **Task:** Additional logos (DTU and Coin-R) are needed in footer.
 
 **<a name="groupnvidiagpu">Nvidia GPU</a>**
 
