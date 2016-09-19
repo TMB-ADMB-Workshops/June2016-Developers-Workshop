@@ -16,7 +16,7 @@ Table of Contents
   * [Breakout Groups Topics](#breakoutgroups)
 * [Presentations](#presentations)
 * [Discussions](#discussions)
-  * [Breakout Groups Discussions](#disscussionbreakoutgroups)
+  * [Breakout Groups Discussions](#discussionbreakoutgroups)
 * [ADMB Foundation Meeting](#admbfoundation)
 * [Accomplishments](#accomplishments)
   * [Priorities](#priorities)
