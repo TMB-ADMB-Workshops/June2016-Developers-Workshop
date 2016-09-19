@@ -90,7 +90,7 @@ _TMB / ADMB Coordination_
 
 |Time|Speaker|Activity|
 |:---|:------|:-------|
-|9:00AM|Johnoel Ancheta|Website: review new [WordPress alternative to Plone](http://admb-project-org.admb-foundation.org/)|
+|9:00AM|Johnoel Ancheta|Website: [review](#newwebsite) new WordPress alternative to Plone.|
 |||Breakout groups|
 |1:00PM|| **Lunch** |
 |||Breakout groups|
@@ -202,7 +202,7 @@ Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to he
 
 * An excellent instructional video was developed by Mollie, Hans, and Arni.
 
-**<a name="newwebsite"/>New website</a>**
+**<a name="newwebsite"/>Website: review new WordPress alternative to Plone.</a>
 
 The www.admb-project.org site should be moved to a new host site because of the uncertainty for support from NCEAS.
 Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages.
@@ -211,6 +211,8 @@ The workshop reviewed the new website design and developed text describing expan
 help support the TMB activities and embrace alternative approaches to software development.
 
 The draft website is at http://admb-project-org.admb-foundation.org/.
+
+Also, see breakout group discussions [Website Issues](#groupwebsiteissues).
 
 <a name="discussionbreakoutgroup"/>
 Breakout Groups
