@@ -273,8 +273,8 @@ Protocol for contributing code
    *  Thorson, Kasper, Mollie (testing Friday)
 
 <a name="groupother"/>
-Other Discussions
------------------
+Breakout Groups
+---------------
 
 Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in
 Oxford (still time to submit a poster abstract).
@@ -287,11 +287,6 @@ An example presentation of Atomic functions and use of derivatives within the te
 
 Several began planning spatio-temporal textbook using TMB.
 
-The following additional items were noted:
-* Include an option to suppress warnings from CHOLMOD during optimization
-   * Notes: Now the warnings are disabled by default. They can be activated by adding
-newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
-* Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
 **<a name="groupsparse"/>Sparse Detection</a>**
 
@@ -312,6 +307,14 @@ echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 **<a name="groupsparse"/>TMB Users</a>**
 
 Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
+
+**<a name="additonal"/>Additional Notes</a>**
+
+* Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
+
+* Include an option to suppress warnings from CHOLMOD during optimization   
+_Notes_: Now the warnings are disabled by default. They can be activated by adding newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
+
 
 <a name="admbfoundation"/>
 ADMB Foundation Meeting
