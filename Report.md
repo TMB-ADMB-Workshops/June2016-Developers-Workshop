@@ -197,15 +197,11 @@ Also, [other discussions](#otherdiscussions) were noted.
 
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
-<a name="groupvideos"/>
-Instructional videos
---------------------
+**<a name="groupvideos">Instructional videos</a>**
 
 * An excellent instructional video was developed by Mollie, Hans, and Arni.
 
-<a name="newwebsite"/>
-New website
------------
+**<a name="newwebsite"/>New website</a>**
 
 The www.admb-project.org site should be moved to a new host site because of the uncertainty for support from NCEAS.
 Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages.
@@ -214,7 +210,6 @@ The workshop reviewed the new website design and developed text describing expan
 help support the TMB activities and embrace alternative approaches to software development.
 
 The draft website is at http://admb-project-org.admb-foundation.org/.
-
 
 <a name="groupother"/>
 Breakout Groups
