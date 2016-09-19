@@ -251,7 +251,7 @@ Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-proje
 
 * By John Sibert, Johnoel and Mollie.
 * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
-* **Task:** Additional logos (DTU and Coin-R) are needed in footer.
+* **Task** Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
 
 **<a name="groupnvidiagpu">Nvidia GPU</a>**
 
@@ -261,11 +261,11 @@ Kasper tested and ran R numerical functions with the GPU.  The results showed sp
 
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
-* Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
+Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
 
 **<a name="groupxssa">XSSA demo of Sibert</a>**
 
-* See the XSSA code repository at [State-space Stock Assessment with population exchange](https://github.com/johnrsibert/XSSA).
+See the XSSA code repository at [State-space Stock Assessment with population exchange](https://github.com/johnrsibert/XSSA).
 
 **<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
