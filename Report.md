@@ -223,7 +223,7 @@ Since most commercial internet web sites do not support Plone and python, Wordpr
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
 help support the TMB activities and embrace alternative approaches to software development.
 
-The draft website is at 'http://admb-project-org.admb-foundation.org/'.
+The draft website is at http://admb-project-org.admb-foundation.org/.
 
 <a name="groupwebsiteissues"/>
 **Breakout Group (Website issues)**
@@ -298,8 +298,13 @@ newtonOption(obj,silent=FALSE). However, you will know that they would have been
 
 The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation).
 
-A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer
-while another group led by Anders developed a simple script to show that TMB can be used for non-R folks.
+A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
+
+TMB script:
+
+```
+echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
+```
 
 <a name="groupsparse"/>TMB Users</a>
 : Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
