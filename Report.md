@@ -14,6 +14,7 @@ Table of Contents
 * [Agenda](#agenda)
   * [Schedule](#schedule)
   * [Breakout Groups](#breakoutgroups)
+* [Presentations](#presentations)
 * [Discussions](#discussions)
 * [ADMB Foundation Meeting](#admbfoundation)
 * [Accomplishments](#accomplishments)
@@ -145,7 +146,7 @@ Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://g
 
 Kasper Kristensen presentation [Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf).
 
-Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort]([Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf)://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
+Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
 
 <a name="breakoutgroups"/>
 Breakout Groups
