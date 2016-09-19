@@ -321,10 +321,11 @@ _Notes_: Now the warnings are disabled by default. They can be activated by addi
 ADMB Foundation Meeting
 =======================
 
-Funding
--------
+**Funding**
 
 Steve Martell suggested getting funding from the commercial fisheries.  They are looking to fund real-time fish tracking tools.
+
+**Election**
 
 Voted on new members:
 
