@@ -153,6 +153,7 @@ Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current s
 
 Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](). **N/A**
 
+**Collaboration ADMB and TMB**
 Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
 
 <a name="breakoutgroups"/>
