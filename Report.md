@@ -151,7 +151,7 @@ Kasper Kristensen presentation [Template Model Builder](https://github.com/admb-
 
 Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/HMC-in-ADMB-and-TMB.pdf).
 
-Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](). **N/A**
+Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](https://github.com/msupernaw/ATL). **N/A**
 
 <a name="breakoutgroups"/>
 Breakout Groups Topics
