@@ -252,7 +252,7 @@ Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-proje
 * Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
    *  Thorson, Kasper, Mollie (testing Friday)
 
-**<a name="groupwebsiteissues">Breakout Group (Website issues)</a>**
+**<a name="groupwebsiteissues">Website issues</a>**
 
 * By John Sibert, Johnoel and Mollie.
 * Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
