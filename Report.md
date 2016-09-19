@@ -133,11 +133,19 @@ Presentations
 
 Thursday of the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
 
+Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/admb-tmb-ide/admb-ide.pdf), [TMB-IDE](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/admb-tmb-ide/tmb-ide.pdf) and [Virtual TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/admb-tmb-ide/virtual-tmb.pdf).
+
 Jim Thorson presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
 Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
 
-Bob Carpenter's [presentation](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
+John Sibert's presentation [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
+
+Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
+
+Kasper Kristensen presentation [Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf).
+
+Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort]([Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf)://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
 
 <a name="breakoutgroups"/>
 Breakout Groups
@@ -348,6 +356,13 @@ Rick Methot and Matthew Supernaw were in attendance.
 
 Appendix
 ========
+
+Notes
+-----
+
+* Mollie Brooks' breakout group [notes](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit).
+
+* Gavin Fay's workshop [notes](https://raw.githubusercontent.com/admb-project/June2016-Developers-Workshop/master/notes/GF_notes_20160620.txt).
 
 <a name="participants"/>
 Participants
