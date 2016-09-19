@@ -267,7 +267,7 @@ Kasper tested and ran R numerical functions with the GPU.  The results showed sp
 
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
-Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
+Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the github repository.
 
 **<a name="groupxssa">XSSA demo of Sibert</a>**
 
@@ -380,7 +380,7 @@ Anders Nielsen urges to keep maintaining more than one tool for automatic differ
 
 As the breakout groups has shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
 
-Kasper Kristensen and Anders Nielsen presentation [Example on joint ADMB/TMB developement effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
+Kasper Kristensen and Anders Nielsen presentation outlines an [Example on joint ADMB/TMB development effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
 
 Rick Methot and Matthew Supernaw were in attendance.
 
