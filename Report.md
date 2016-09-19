@@ -260,13 +260,13 @@ Protocol for contributing code
 Breakout Groups
 ---------------
 
-<a name="groupnvidiagpu">Nvidia GPU</a>**
+**<a name="groupnvidiagpu">Nvidia GPU</a>**
 
 * Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
 * Successfully configured the ADMB linux server for Nvidia GPU development support.  
 Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
 
-<a name="grouptmbgpu">TMB with GPU</a>**
+**<a name="grouptmbgpu">TMB with GPU</a>**
 
 * Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the githup repository.
 
