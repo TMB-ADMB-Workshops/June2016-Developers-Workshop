@@ -150,7 +150,7 @@ Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://g
 
 Kasper Kristensen presentation [Template Model Builder](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/tmb_presentation.pdf).
 
-Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions](). **N/A**
+Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/HMC-in-ADMB-and-TMB.pdf).
 
 Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](). **N/A**
 
