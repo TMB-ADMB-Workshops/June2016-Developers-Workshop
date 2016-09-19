@@ -172,9 +172,9 @@ _Topics with links were discussed._
 * Non-normal RE (rotational Bayes)
 * [Cross validation methods](#groupvalidation)
 * MCMC (Riemann with Langevin updates)
-* XSSA demo of Sibert
+* [XSSA demo of Sibert]
 * GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
-* Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)
+* [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
 * Debugging demonstration and documentation reference
 * [Discuss getting better sparseness detection in ADMB](#groupsparse)
 * Posfun in TMB
@@ -269,24 +269,26 @@ Protocol for contributing code
       * It would be nice to have an AIC function that works as AIC(fit <- nlminb(mod$par, mod$fn, mod$gr)). See TMBAIC at https://github.com/kaskr/adcomp/wiki/FAQ
          * THIS has now been added to TMBhelper in the user-contributed directory
       * It would be nice to have an elem_prod() function.
-* Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp#example_cpp
+* Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
    *  Thorson, Kasper, Mollie (testing Friday)
 
 <a name="groupother"/>
 Breakout Groups
 ---------------
 
-Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in
-Oxford (still time to submit a poster abstract).
+
+**<a name="groupgradients">XSSA demo of Sibert</a>**
+
+* See the XSSA code repository at [State-space Stock Assessment with population exchange](https://github.com/johnrsibert/XSSA).
+
+**<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
 An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
 
-<a name="groupgradients">Compare gradients</a>
+**<a name="groupgradients">Compare gradients</a>**
+
 * Matthew's AD example comparing gradients with ADMB and TMB was double checked.
-* Anders Nielsen have done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the betai did not produce similar gradients.  It was discovered the betai function in ADMB was incorrect.  They already have a fix and will merge into the admb master.
-
-Several began planning spatio-temporal textbook using TMB.
-
+* Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the betai did not produce similar gradients.  It was discovered the betai function in ADMB was incorrect.  They already have a fix and will merge into the admb master.
 
 **<a name="groupsparse"/>Sparse Detection</a>**
 
@@ -294,7 +296,7 @@ It was noted that there would be advantages to having sparseness detection built
 
 **<a name="groupvalidation"/>Cross validation methods</a>**
 
-The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation).
+The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation)).
 
 **<a name="groupsparse"/>TMB Script</a>**
 
@@ -309,6 +311,10 @@ echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
 
 **<a name="additonal"/>Additional Notes</a>**
+
+* Bob Carpenter and Brad Bell led discussions about autodiff in general and announced that there will be a workshop in Oxford (still time to submit a poster abstract).
+
+* Several began planning spatio-temporal textbook using TMB.
 
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
