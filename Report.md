@@ -315,7 +315,9 @@ Cole Monnahan led discussions about the current state and future directions of H
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
 * Include an option to suppress warnings from CHOLMOD during optimization   
-_Notes_: Now the warnings are disabled by default. They can be activated by adding
+_Notes_
+
+  Now the warnings are disabled by default. They can be activated by adding
 
   ```
   newtonOption(obj,silent=FALSE)
