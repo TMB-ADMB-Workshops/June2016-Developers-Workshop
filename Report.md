@@ -313,7 +313,13 @@ Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google gr
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
 * Include an option to suppress warnings from CHOLMOD during optimization   
-_Notes_: Now the warnings are disabled by default. They can be activated by adding newtonOption(obj,silent=FALSE). However, you will know that they would have been generated if “ustep” is less than one.
+_Notes_: Now the warnings are disabled by default. They can be activated by adding
+
+```
+newtonOption(obj,silent=FALSE)
+```
+
+. However, you will know that they would have been generated if “ustep” is less than one.
 
 
 <a name="admbfoundation"/>
