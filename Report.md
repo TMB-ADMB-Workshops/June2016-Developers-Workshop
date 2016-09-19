@@ -254,9 +254,12 @@ Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-proje
 
 **<a name="groupwebsiteissues">Website issues</a>**
 
-* By John Sibert, Johnoel and Mollie.
-* Frontpage text of draft website revised http://admb-project-org.admb-foundation.org/
-* **Task** Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
+_By John Sibert, Johnoel and Mollie._
+
+Revised frontpage text of draft website at http://admb-project-org.admb-foundation.org/.
+
+_Task_
+* Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
 
 **<a name="groupnvidiagpu">Nvidia GPU</a>**
 
