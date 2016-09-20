@@ -311,6 +311,8 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 
 A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
 
+_Contents of tmbrun.sh_
+
 ```
 echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 ```
