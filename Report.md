@@ -7,8 +7,8 @@ University of Washington, School of Aquatic and Fisheries Sciences
 
 Seattle, Washington, USA
 
-Table of Contents
------------------
+Contents
+--------
 
 * [Description](#description)
 * [Agenda](#agenda)
@@ -385,6 +385,7 @@ Priorities
 * Website: Add DTU Aqua in footer
 * Video: Provide youtube link to instructional video
 * ADMB: Merge inv_cumd_beta_stable fixes
+* Continue collaboration with TMB, cppad and Stan projects.
 
 **Potential new features**
 
