@@ -228,6 +228,10 @@ _Arni, Chris Grandin and Johnoel_
 
 Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started configuring the ide build procedure into the automated builds ([buildbot](http://buildbot.admb-project.org/)).
 
+_Task_
+
+* Continue to configure buildbot for ADMB-IDE.
+
 **<a name="groupcontributecode"/>Protocol for contributing code</a>**
 
 * R package of contributed functions
@@ -262,12 +266,17 @@ Revised frontpage text of draft website at http://admb-project-org.admb-foundati
 
 _Task_
 * Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
+* Continue to finalize the website.
 
 **<a name="groupnvidiagpu">Nvidia GPU</a>**
 
 * Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
 * Successfully configured the ADMB linux server for Nvidia GPU development support.  
 Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
+
+_Task_
+
+* Take a look at Dave's GPU code for the minimizer.
 
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
@@ -289,6 +298,10 @@ An example presentation of Atomic functions and use of derivatives within the te
 **<a name="groupsparse"/>Sparse Detection</a>**
 
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
+
+_Task_
+
+* Look into adding sparse detection for ADMB from the TMB code.
 
 **<a name="groupvalidation"/>Cross validation methods</a>**
 
