@@ -8,11 +8,8 @@
 
 Contact Jim.Ianelli@noaa.gov for registration and questions.
 
-##Important notice for travellers:
+##Important notice for travellers
 Changes in University of Hawaii grant administration procedures have created additional hurdles for reimbursement of non-UH employee travel expenses. Please contact Dodie Lau lau@hawaii.edu __before__ purchasing air tickets or reserving hotel accomodations; __the sooner the better.__
-
-
-![ADMB/TMB is Awesome!](2http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg "jpeg")
 
 ##Objectives
 * Plan development of instructional videos
