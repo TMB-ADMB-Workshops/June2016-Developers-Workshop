@@ -143,7 +143,7 @@ On Thursday, the workshop was devoted to a series of presentations on alternativ
 
 David Fournier's presentation [The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models](). **N/A**
 
-Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation of Mixed](). **N/A**
+Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation of Mixed]() **N/A** and [The cppad_mixed Capture Example and Speed Test](presentations/capture_xam.pdf).
 
 Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
