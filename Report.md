@@ -7,8 +7,8 @@ University of Washington, School of Aquatic and Fisheries Sciences
 
 Seattle, Washington, USA
 
-Table of Contents
------------------
+Contents
+--------
 
 * [Description](#description)
 * [Agenda](#agenda)
@@ -228,6 +228,10 @@ _Arni, Chris Grandin and Johnoel_
 
 Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started configuring the ide build procedure into the automated builds ([buildbot](http://buildbot.admb-project.org/)).
 
+_Task_
+
+* Continue to configure buildbot for ADMB-IDE.
+
 **<a name="groupcontributecode"/>Protocol for contributing code</a>**
 
 * R package of contributed functions
@@ -256,18 +260,23 @@ Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-proje
 
 **<a name="groupwebsiteissues">Website issues</a>**
 
-_By John Sibert, Johnoel and Mollie._
+_John Sibert, Johnoel and Mollie._
 
 Revised frontpage text of draft website at http://admb-project-org.admb-foundation.org/.
 
 _Task_
 * Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
+* Continue to finalize the website.
 
 **<a name="groupnvidiagpu">Nvidia GPU</a>**
 
 * Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
 * Successfully configured the ADMB linux server for Nvidia GPU development support.  
 Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
+
+_Task_
+
+* Take a look at Dave's GPU code for the minimizer.
 
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
@@ -290,6 +299,10 @@ An example presentation of Atomic functions and use of derivatives within the te
 
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
+_Task_
+
+* Look into adding sparse detection for ADMB from the TMB code.
+
 **<a name="groupvalidation"/>Cross validation methods</a>**
 
 The topic of model selection approaches (e.g. Cross validation methods, Conditional AIC, 1 step predict) was raised and it was noted that in the directory (see existing [example](https://github.com/kaskr/adcomp/tree/master/tmb_examples/validation)).
@@ -297,6 +310,8 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 **<a name="groupsparse"/>TMB Script</a>**
 
 A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
+
+_Contents of tmbrun.sh_
 
 ```
 echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
@@ -308,7 +323,11 @@ Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google gr
 
 **<a name="nutsinadmb">Nuts algorithm in ADMB</a>**
 
-Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS. Cole, Dave and Johnoel will work toward this goal over the next 6 months.
+Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS.
+
+_Task_
+
+* Cole, Dave and Johnoel will work toward this goal over the next 6 months.
 
 **<a name="otherdiscussions"/>Other Discussions</a>**
 
@@ -372,6 +391,7 @@ Priorities
 * Website: Add DTU Aqua in footer
 * Video: Provide youtube link to instructional video
 * ADMB: Merge inv_cumd_beta_stable fixes
+* Continue collaboration with TMB, cppad and Stan projects.
 
 **Potential new features**
 
