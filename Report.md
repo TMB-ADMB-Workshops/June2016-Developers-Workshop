@@ -327,7 +327,7 @@ Cole Monnahan led discussions about the current state and future directions of H
 
 _Task_
 
-Cole, Dave and Johnoel will work toward this goal over the next 6 months.
+* Cole, Dave and Johnoel will work toward this goal over the next 6 months.
 
 **<a name="otherdiscussions"/>Other Discussions</a>**
 
