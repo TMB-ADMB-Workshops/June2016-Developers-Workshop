@@ -260,7 +260,7 @@ _Task_
 
 **<a name="groupwebsiteissues">Website issues</a>**
 
-_By John Sibert, Johnoel and Mollie._
+_John Sibert, Johnoel and Mollie._
 
 Revised frontpage text of draft website at http://admb-project-org.admb-foundation.org/.
 
