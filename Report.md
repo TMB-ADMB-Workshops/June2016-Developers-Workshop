@@ -204,7 +204,7 @@ Also, see breakout group discussions [ADMB-IDE](#groupadmbide).
 
 * An excellent instructional video was developed by Mollie, Hans, and Arni.
 
-**<a name="newwebsite"/>Website: review new WordPress alternative to Plone.</a>
+**<a name="newwebsite"/>Website: review new WordPress alternative to Plone.</a>**
 
 The www.admb-project.org site should be moved to a new host site because of the uncertainty for support from NCEAS.
 Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages.
