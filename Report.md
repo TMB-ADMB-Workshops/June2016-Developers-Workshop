@@ -432,18 +432,18 @@ Participants
 |Gavin Fay|Michigan State University||
 |Dave Fournier|Otter Research||
 |Kyle Foreman||
-|Chris Grandin|DFO-MPO||
+|Chris Grandin|Fisheries and Oceans Canada(DFO-MPO)||
 |Allan Hicks|International Pacific Halibut Commission||
 |Jim Ianelli|NOAA||
 |Kasper Kristensen|Technical University of Denmark|Developer TMB |
 |Jeff Laake|NOAA|Remote participation|
-|Arni Magnusson|ICEAS||
+|Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)||
 |Rick Methot|NOAA||
 |Cole Monnahan|University of Washington||
 |Steve Martell||
 |Anders Nielsen|Technical University of Denmark||
 |John Sibert|ADMB Project, JIMAR, University of Hawaii|
-|Hans Skaug|Hans J. Skaug|
+|Hans Skaug|University of Bergen|
 |Matthew Supernaw|NOAA|Developer atl|
 |Jim Thorson|University of Washington||
 |Athol Whitten|[Mezo Research](http://mezo.com.au/)|Remote participation|
