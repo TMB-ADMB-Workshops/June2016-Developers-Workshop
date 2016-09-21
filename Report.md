@@ -426,24 +426,24 @@ Participants
 
 |Name|Affiliation|Notes|
 |---|---|---|
-|Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
 |Teresa A'mar|NOAA||
+|Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
 |Brad Bell|University of Washington|Developer cppad |
 |Casper Berg|Technical University of Denmark||
 |Mollie Brooks|Technical University of Denmark||
 |Bob Carpenter|Stan Project||
 |Gavin Fay|Michigan State University||
-|Dave Fournier|Otter Research||
 |Kyle Foreman|University of Washington|
+|Dave Fournier|Otter Research||
 |Chris Grandin|Fisheries and Oceans Canada(DFO-MPO)||
 |Allan Hicks|International Pacific Halibut Commission||
 |Jim Ianelli|NOAA||
 |Kasper Kristensen|Technical University of Denmark|Developer TMB |
 |Jeff Laake|NOAA|Remote participation|
 |Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)||
+|Steve Martell||
 |Rick Methot|NOAA||
 |Cole Monnahan|University of Washington||
-|Steve Martell||
 |Anders Nielsen|Technical University of Denmark||
 |John Sibert|ADMB Project, JIMAR, University of Hawaii|
 |Hans Skaug|University of Bergen|
