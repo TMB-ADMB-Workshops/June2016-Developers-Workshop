@@ -416,35 +416,34 @@ Notes
 * Mollie Brooks' breakout group [notes](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit).
 
 * Gavin Fay's workshop [notes](https://raw.githubusercontent.com/admb-project/June2016-Developers-Workshop/master/notes/GF_notes_20160620.txt).
-* 
-__This table should be alphabetical and should include institutional effiliations__
+
 <a name="participants"/>
 Participants
 ------------
 
-|Name|Notes|
+|Name|Affiliation|Notes|
 |---|---|
-|Dave Fournier|Otter Research|
-|John Sibert|ADMB Project, JIMAR, University of Hawaii|
-|Jim Ianelli||
-|Steve Martell||
-|Anders Nielsen||
-|Hans Skaug||
-|Arni Magnusson||
-|Kasper Kristensen| Developer TMB |
-|Brad Bell| Developer cppad |
-|Mollie Brooks||
-|Matthew Supernaw| Developer atl |
-|Teresa A'mar||
-|Chris Grandin||
-|Casper Berg||
-|Cole Monnahan||
-|Jim Thorson||
-|Bob Carpenter|Stan Project|
 |Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
-|Gavin Fay||
-|Allan Hicks|IPHC|
+|Teresa A'mar|NOAA||
+|Brad Bell|University of Washington|Developer cppad |
+|Casper Berg|Technical University of Denmark||
+|Mollie Brooks|Technical University of Denmark||
+|Bob Carpenter|Stan Project||
+|Gavin Fay|Michigan State University||
+|Dave Fournier|Otter Research||
 |Kyle Foreman||
-|Rick Methot||
-|Athol Whitten|Remote participation|
-|Jeff Laake|Remote participation|
+|Chris Grandin|DFO-MPO||
+|Allan Hicks|International Pacific Halibut Commission||
+|Jim Ianelli|NOAA||
+|Kasper Kristensen|Technical University of Denmark|Developer TMB |
+|Jeff Laake|NOAA|Remote participation|
+|Arni Magnusson|ICEAS||
+|Rick Methot|NOAA||
+|Cole Monnahan|University of Washington||
+|Steve Martell||
+|Anders Nielsen|Technical University of Denmark||
+|John Sibert|ADMB Project, JIMAR, University of Hawaii|
+|Hans Skaug|Hans J. Skaug|
+|Matthew Supernaw|NOAA|Developer atl|
+|Jim Thorson|University of Washington||
+|Athol Whitten|[Mezo Research](http://mezo.com.au/)|Remote participation|
