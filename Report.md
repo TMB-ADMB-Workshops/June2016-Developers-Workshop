@@ -137,7 +137,8 @@ Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-pr
 
 Jim Thorson's presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
-John Sibert's presentation [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
+John Sibert's presentation on approaches to and results of porting at "working" ADMB model and data to TMB. 
+[A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
 
 On Thursday, the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
 
@@ -161,17 +162,15 @@ Breakout group topics were developed at the workshop.
 
 Below is created list of topics for the breakout groups:
 
-_Topics with links were discussed._
-
+_Topics with links were discussed.  *so Remove topics without links because they were NOT discussed*_
 * [ADMB-IDE 11.5](#groupadmbide)
-* cppad_mixed
+* ~~cppad_mixed~~
 * [Instructional videos](#groupvideos)
 * [Nvidia GPU](#groupnvidiagpu)
 * [TMB with GPU](#grouptmbgpu)
 * Non-normal RE (rotational Bayes)
 * [Cross validation methods](#groupvalidation)
 * MCMC (Riemann with Langevin updates)
-* [XSSA demo of Sibert](#groupxssa)
 * GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
 * [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
 * Debugging demonstration and documentation reference
@@ -199,10 +198,10 @@ Also, [other discussions](#otherdiscussions) were noted.
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
 Also, see breakout group discussions [ADMB-IDE](#groupadmbide).
-
+/
 **<a name="groupvideos">Instructional videos</a>**
 
-* An excellent instructional video was developed by Mollie, Hans, and Arni.
+* An excellent instructional video was developed by Mollie, Hans, and Arni [Link?].
 
 **<a name="newwebsite"/>Website: review new WordPress alternative to Plone.</a>**
 
@@ -281,10 +280,6 @@ _Task_
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
 Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the github repository.
-
-**<a name="groupxssa">XSSA demo of Sibert</a>**
-
-See the XSSA code repository at [State-space Stock Assessment with population exchange](https://github.com/johnrsibert/XSSA).
 
 **<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
@@ -421,7 +416,8 @@ Notes
 * Mollie Brooks' breakout group [notes](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit).
 
 * Gavin Fay's workshop [notes](https://raw.githubusercontent.com/admb-project/June2016-Developers-Workshop/master/notes/GF_notes_20160620.txt).
-
+* 
+__This table should be alphabetical and should include institutional effiliations__
 <a name="participants"/>
 Participants
 ------------
