@@ -422,7 +422,7 @@ Participants
 ------------
 
 |Name|Affiliation|Notes|
-|---|---|
+|---|---|---|
 |Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
 |Teresa A'mar|NOAA||
 |Brad Bell|University of Washington|Developer cppad |
