@@ -441,7 +441,7 @@ Participants
 |Kasper Kristensen|Technical University of Denmark|Developer TMB |
 |Jeff Laake|NOAA|Remote participation|
 |Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)||
-|Steve Martell||
+|Steve Martell|[Sea State Program](http://groundfishforum.org/sea-state-program)|
 |Rick Methot|NOAA||
 |Cole Monnahan|University of Washington||
 |Anders Nielsen|Technical University of Denmark||
