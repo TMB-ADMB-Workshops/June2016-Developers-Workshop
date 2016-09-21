@@ -433,7 +433,7 @@ Participants
 |Mollie Brooks|Technical University of Denmark||
 |Bob Carpenter|Stan Project||
 |Gavin Fay|Michigan State University||
-|Kyle Foreman|University of Washington|
+|Kyle Foreman||
 |Dave Fournier|Otter Research||
 |Chris Grandin|Fisheries and Oceans Canada(DFO-MPO)||
 |Allan Hicks|International Pacific Halibut Commission||
@@ -441,7 +441,7 @@ Participants
 |Kasper Kristensen|Technical University of Denmark|Developer TMB |
 |Jeff Laake|NOAA|Remote participation|
 |Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)||
-|Steve Martell|[Sea State Program](http://groundfishforum.org/sea-state-program)|
+|Steve Martell|Sea State Incorporated|
 |Rick Methot|NOAA||
 |Cole Monnahan|University of Washington||
 |Anders Nielsen|Technical University of Denmark||
