@@ -138,13 +138,14 @@ Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-pr
 Jim Thorson's presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
 John Sibert's presentation on approaches to and results of porting at "working" ADMB model and data to TMB. 
-[A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
+
+* [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
 
 On Thursday, the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
 
 David Fournier's presentation [The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models](). **N/A**
 
-Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation of Mixed]() **N/A** and [The cppad_mixed Capture Example and Speed Test](presentations/capture_xam.pdf).
+Brad Bell's presentations [cppad_mixed: A C++ Package for Laplace Approximation of Mixed]() **N/A** and [The cppad_mixed Capture Example and Speed Test](presentations/capture_xam.pdf).
 
 Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
@@ -162,25 +163,27 @@ Breakout group topics were developed at the workshop.
 
 Below is created list of topics for the breakout groups:
 
-_Topics with links were discussed.  *so Remove topics without links because they were NOT discussed*_
 * [ADMB-IDE 11.5](#groupadmbide)
-* ~~cppad_mixed~~
 * [Instructional videos](#groupvideos)
 * [Nvidia GPU](#groupnvidiagpu)
 * [TMB with GPU](#grouptmbgpu)
-* Non-normal RE (rotational Bayes)
 * [Cross validation methods](#groupvalidation)
-* MCMC (Riemann with Langevin updates)
-* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
 * [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
-* Debugging demonstration and documentation reference
 * [Discuss getting better sparseness detection in ADMB](#groupsparse)
-* Posfun in TMB
 * [Protocol for contributing code](#groupcontributecode)
 * [Website issues](#groupwebsiteissues)
+* [NUTS algorithm in ADMB](#nutsinadmb)
+
+Remove below
+
+* cppad_mixed
+* Non-normal RE (rotational Bayes)
+* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
+* MCMC (Riemann with Langevin updates)
+* Debugging demonstration and documentation reference
+* Posfun in TMB
 * Rank order -1 problem
 * 3rd order derivatives
-* [NUTS algorithm in ADMB](#nutsinadmb)
 * Get install_github() to do source("install_windows.R") when Windows is detected
 * Non-normal RE (rotational Bayes)
 * Create TMB page on Wikipedia
@@ -431,7 +434,7 @@ Participants
 |Bob Carpenter|Stan Project||
 |Gavin Fay|Michigan State University||
 |Dave Fournier|Otter Research||
-|Kyle Foreman||
+|Kyle Foreman|University of Washington|
 |Chris Grandin|Fisheries and Oceans Canada(DFO-MPO)||
 |Allan Hicks|International Pacific Halibut Commission||
 |Jim Ianelli|NOAA||
