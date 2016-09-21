@@ -201,7 +201,7 @@ Also, [other discussions](#otherdiscussions) were noted.
 Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
 
 Also, see breakout group discussions [ADMB-IDE](#groupadmbide).
-/
+
 **<a name="groupvideos">Instructional videos</a>**
 
 * An excellent instructional video was developed by Mollie, Hans, and Arni [Link?].
