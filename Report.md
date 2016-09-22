@@ -315,13 +315,11 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 
 **<a name="groupsparse"/>TMB Script</a>**
 
-John Sibert pointed out that it would be unpleasant to have to learn R just to use TMB. A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used by non-R folks.
+John Sibert pointed out that it would be unpleasant to have to learn R just to use TMB. A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer.  
 
-_Contents of tmbrun.sh_
+Another group led by Jim Ianelli and joint by Anders Nielsen developed a setup based on a simple R-script and shell script (both are intended to be unchanged), which allow the user to run models without ever writing a single line in R. The user need to supply three files: 1) A cpp implementation of the negative log likelihood for the model (.cpp), 2) a data file (.dat), and 3) a parameter initialization file (.pin). The data file and the initialization file names the data objects and the parameters, and the cpp file must match. The keyword RANDOM in the initialization file specified if a given parameter (vector) is to be treated as a random effect. It is important to note that in this setup R is still used, but just made invisible to the user. The code for this setup (script.R and tmbrun) along with two working examples (thetalog and lm) can be found at the github page:     
 
-```
-echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
-```
+https://github.com/fishfollower/hideR
 
 **<a name="groupsparse"/>TMB Users</a>**
 
