@@ -163,7 +163,7 @@ Breakout Group Topics
 
 Breakout group topics were proposed. They were self-organized using a [document](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit) initiated by Mollie.
 
-Below is a list of topics proposed for the breakout groups:
+Below is a list of topics discussed in the breakout groups:
 
 * [ADMB-IDE 11.5](#groupadmbide)
 * [Instructional videos](#groupvideos)
@@ -171,7 +171,7 @@ Below is a list of topics proposed for the breakout groups:
 * [TMB with GPU](#grouptmbgpu)
 * [Cross validation methods](#groupvalidation)
 * [XSSA demo of Sibert](#groupxssa)
-* glmmTMB Package: an underdispersed Poisson-type distribution could be added; facilitate hurdle models in single function call
+* [glmmTMB Package](#glmmtmb)
 * [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
 * [Discuss getting better sparseness detection in ADMB](#groupsparse)
 * [Protocol for contributing code](#groupcontributecode)
@@ -182,7 +182,6 @@ Below is a list other interested topics that can be discussed after the workshop
 
 * cppad_mixed
 * Non-normal RE (rotational Bayes)
-* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
 * MCMC (Riemann with Langevin updates)
 * Debugging demonstration and documentation reference
 * Posfun in TMB
@@ -290,6 +289,11 @@ _Task_
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
 Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the github repository.  Also, see [GPU timings](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/issues/6).
+
+**<a name="groupglmmtmb">glmmTMB Package</a>**
+
+* an underdispersed Poisson-type distribution could be added
+* facilitate hurdle models in single function call
 
 **<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
