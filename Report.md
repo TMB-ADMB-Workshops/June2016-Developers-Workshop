@@ -159,7 +159,7 @@ Mollie Brooks's presentation [glmmTMB package for R](https://github.com/admb-pro
 Breakout Groups Topics
 ======================
 
-Breakout group topics were developed at the workshop.
+Breakout group topics were developed at the workshop. They were self-organized using a [document](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit) initiated by Mollie Brooks.
 
 Below is a list of topics proposed for the breakout groups:
 
@@ -193,7 +193,7 @@ _Topics with links were discussed (details below). Those without links could be 
 Discussions
 ===========
 
-For the above tasks, the following briefly describes activities and progress for the breakout groups.
+For the above items, the following briefly describes activities and progress of the breakout groups.
 Also, [other discussions](#otherdiscussions) were noted.
 
 **<a name="admbide">ADMB-IDE</a>**
@@ -256,6 +256,7 @@ _Thorson, Kasper, Gavin, Mollie_
          * Gavin tested using thetalogistic example.
          * Example usage in Roxygen documentation for TMBphase()
          * Not implemented choice of optimizer yet.
+
 *Contributing C++ code
    * Kasper created a function `TMB:::install.contrib` which allows contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
 
@@ -269,7 +270,7 @@ _John Sibert, Johnoel and Mollie._
 
 Revised frontpage text of draft website at http://admb-project-org.admb-foundation.org/.
 
-_Task_
+_Tasks_
 * Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
 * Continue to finalize the website.
 
@@ -300,7 +301,7 @@ An example presentation of Atomic functions and use of derivatives within the te
 * Matthew's AD example comparing gradients with ADMB and TMB was double checked.
 * Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the inv_cumd_beta_stable did not produce similar gradients.  It was discovered the inv_cumd_beta_stable function in ADMB was incorrect.  They already have a fix and will merge into the admb master.
 
-**<a name="groupsparse"/>Sparse Detection</a>**
+**<a name="groupsparse"/>Sparseness Detection</a>**
 
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
@@ -314,7 +315,7 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 
 **<a name="groupsparse"/>TMB Script</a>**
 
-A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
+John Sibert pointed out that it would be unpleasant to have to learn R just to use TMB. A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used by non-R folks.
 
 _Contents of tmbrun.sh_
 
@@ -324,7 +325,7 @@ echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 
 **<a name="groupsparse"/>TMB Users</a>**
 
-Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
+Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository. As of 22 Sept 2016, it has 18 users.
 
 **<a name="nutsinadmb">NUTS algorithm in ADMB</a>**
 
@@ -419,8 +420,6 @@ Appendix
 Notes
 -----
 
-* Breakout group self-organization [document](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit) initiated by Mollie Brooks.
-
 * Gavin Fay's workshop [notes](https://raw.githubusercontent.com/admb-project/June2016-Developers-Workshop/master/notes/GF_notes_20160620.txt).
 
 <a name="participants"/>
@@ -447,7 +446,7 @@ Participants
 |Jim Thorson|University of Washington|
 |Bob Carpenter|Stan Project|
 |Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
-|Gavin Fay| University of Massachusetts Dartmouth|
+|Gavin Fay| University of Massachusetts |
 |Allan Hicks|International Pacific Halibut Commission|
 |Kyle Foreman||
 |Rick Methot||
