@@ -156,14 +156,14 @@ Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](https://g
 Mollie Brooks's presentation [glmmTMB package for R](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/glmmTMB.pdf)
 
 <a name="breakoutgroups"/>
-Breakout Groups Topics
+Breakout Group Topics
 ======================
 
-Breakout group topics were developed at the workshop. They were self-organized using a [document](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit) initiated by Mollie Brooks.
+Breakout group topics were proposed. They were self-organized using a [document](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit) initiated by Mollie.
 
 Below is a list of topics proposed for the breakout groups:
 
-_Topics with links were discussed (details below). Those without links could be addressed in the future._
+_Topics with links were discussed (details in next section). Those without links could be addressed in the future._
 
 * [ADMB-IDE 11.5](#groupadmbide)
 * cppad_mixed
