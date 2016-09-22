@@ -178,7 +178,7 @@ Below is a list of topics proposed for the breakout groups:
 * [Website issues](#groupwebsiteissues)
 * [NUTS algorithm in ADMB](#nutsinadmb)
 
-Remove below
+Below is a list other interested topics that can be discussed after the workshop:
 
 * cppad_mixed
 * Non-normal RE (rotational Bayes)
