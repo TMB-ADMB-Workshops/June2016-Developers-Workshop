@@ -438,14 +438,14 @@ Participants
 |Allan Hicks|International Pacific Halibut Commission||
 |Jim Ianelli|University of Washington||
 |Kasper Kristensen|Technical University of Denmark|Developer TMB and glmmTMB|
-|Jeff Laake|NOAA|Remote participation|
+|Jeff Laake|National Oceanic and Atmospheric Administration|Remote participation|
 |Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)|Developer TMB|
 |Steve Martell|Sea State Incorporated|
-|Rick Methot|NOAA||
+|Rick Methot|National Oceanic and Atmospheric Administration||
 |Cole Monnahan|University of Washington||
 |Anders Nielsen|Technical University of Denmark|Developer glmmTMB|
 |John Sibert|ADMB Project, JIMAR, University of Hawaii|
 |Hans Skaug|University of Bergen|
-|Matthew Supernaw|NOAA|Developer atl|
+|Matthew Supernaw|National Oceanic and Atmospheric Administration|Developer atl|
 |Jim Thorson|University of Washington||
 |Athol Whitten|[Mezo Research](http://mezo.com.au/)|Remote participation|
