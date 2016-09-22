@@ -29,13 +29,13 @@ Contents
 Description
 ===========
 
-This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers and were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges. 
+This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers who were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges. 
 
 The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project.
 
-Participants are included in an [appendix](#appendix) to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board was appointed.
+Participants are included in an [appendix](#appendix) to this document. Jim Ianelli chaired the majority of the workshop, with much assistance from Arni Magnusson and Mollie Brooks.  Gavin Fay and Johnoel Ancheta along with others acted as rapporteur and compiled and edited this report. An ADMB foundation meeting was held at the conclusion of the workshop and new members and board were appointed.
 
-The workshop was broadcasted via the internet to allow for remote participation.
+The workshop was broadcast via the internet to allow for remote participation.
 
 <a name="agenda"/>
 Agenda
@@ -141,9 +141,9 @@ John Sibert's presentation [A Newbie Ports ADMB to TMB](https://github.com/admb-
 
 On Thursday, the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
 
-David Fournier's presentation [The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models](). **N/A**
+David Fournier's presentation [The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models]().
 
-Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation of Mixed](). **N/A**
+Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation of Mixed]().
 
 Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
@@ -151,17 +151,19 @@ Kasper Kristensen's presentation [Template Model Builder](https://github.com/adm
 
 Cole Monnahan's presentation [Hamiltonian Monte Carlo in ADMB and TMB: current status and future directions](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/HMC-in-ADMB-and-TMB.pdf).
 
-Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](https://github.com/msupernaw/ATL). **N/A**
+Matthew Supernaw's presentation [ATL and Higher-Order Reverse Mode AD](https://github.com/msupernaw/ATL).
+
+Mollie Brooks's presentation [glmmTMB package for R](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/glmmTMB.pdf)
 
 <a name="breakoutgroups"/>
-Breakout Groups Topics
+Breakout Group Topics
 ======================
 
-Breakout group topics were developed at the workshop.
+Breakout group topics were proposed. They were self-organized using a [document](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit) initiated by Mollie.
 
-Below is created list of topics for the breakout groups:
+Below is a list of topics proposed for the breakout groups:
 
-_Topics with links were discussed._
+_Topics with links were discussed (details in next section). Those without links could be addressed in the future._
 
 * [ADMB-IDE 11.5](#groupadmbide)
 * cppad_mixed
@@ -172,7 +174,7 @@ _Topics with links were discussed._
 * [Cross validation methods](#groupvalidation)
 * MCMC (Riemann with Langevin updates)
 * [XSSA demo of Sibert](#groupxssa)
-* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
+* glmmTMB Package: an underdispersed Poisson-type distribution could be added; facilitate hurdle models in single function call
 * [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
 * Debugging demonstration and documentation reference
 * [Discuss getting better sparseness detection in ADMB](#groupsparse)
@@ -185,29 +187,29 @@ _Topics with links were discussed._
 * Get install_github() to do source("install_windows.R") when Windows is detected
 * Non-normal RE (rotational Bayes)
 * Create TMB page on Wikipedia
-* glmmTMB publication planning
+* glmmTMB publication planning (discussed later during ISEC)
 
 <a name="discussions"/>
 Discussions
 ===========
 
-Relative to these tasks, the following lists activities and progress for the breakout groups.
+For the above items, the following briefly describes activities and progress of the breakout groups.
 Also, [other discussions](#otherdiscussions) were noted.
 
 **<a name="admbide">ADMB-IDE</a>**
 
-Arni also presented the status of ADMB-IDE 11.5 and a sub-group was formed to help w/ maintenance of this package that is commonly used.
+Arni presented the status of ADMB-IDE 11.5 and a sub-group was formed to help with maintenance of this package that is commonly used.
 
 Also, see breakout group discussions [ADMB-IDE](#groupadmbide).
 
 **<a name="groupvideos">Instructional videos</a>**
 
-* An excellent instructional video was developed by Mollie, Hans, and Arni.
+* An excellent instructional [video](https://screencast.uninett.no/relay/ansatt/hsk021uib.no/2016/23.06/437000/TMB_X_01_linreg_-_20160623_030333_39.html) was developed by Mollie, Hans, and Arni.
 
 **<a name="newwebsite"/>Website: review new WordPress alternative to Plone.</a>**
 
-The www.admb-project.org site should be moved to a new host site because of the uncertainty for support from NCEAS.
-Since most commercial internet web sites do not support Plone and python, Wordpress was chosen for to host the website pages.
+The www.admb-project.org site should be moved to a new host site because of the uncertainty of website hosting from NCEAS. The NCEAS affiliation should continue to be acknowledged on the new website.
+Since most commercial internet web sites do not support Plone and python, Wordpress was chosen to host the website pages.
 
 The workshop reviewed the new website design and developed text describing expanded roles of the Foundation to
 help support the TMB activities and embrace alternative approaches to software development.
@@ -220,27 +222,30 @@ Also, see breakout group discussions [Website Issues](#groupwebsiteissues).
 Breakout Groups
 ---------------
 
-Each group presented a short report on the groups effort.
+Each group presented a brief report on the group's effort.
 
 **<a name="groupadmbide">ADMB-IDE</a>** 
 
 _Arni, Chris Grandin and Johnoel_
 
-Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  Started configuring the ide build procedure into the automated builds ([buildbot](http://buildbot.admb-project.org/)).
+* Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  
+* Started configuring the ide build procedure into the automated builds ([buildbot](http://buildbot.admb-project.org/)).
 
 _Task_
 
 * Continue to configure buildbot for ADMB-IDE.
 
-**<a name="groupcontributecode"/>Protocol for contributing code</a>**
+**<a name="groupcontributecode"/>Protocols for contributing R and C++ code</a>**
 
-* R package of contributed functions
-   * Kasper added a directory called “TMB_contrib_R” to “kaskr” github page
-      * He’s working on a function as part of package to install these into right place so they get compiled
+_Thorson, Kasper, Gavin, Mollie_
+
+* Contributing R functions
+   * Kasper created [TMB_contrib_R](https://github.com/kaskr/TMB_contrib_R)
    * Contains subdirectories that can be installed using devtools R package installer
    * Examples include:
       * Jim Thorson added TMBdebug
-      * Gavin is working on TMBphase using example code from Mollie
+      * TMBAIC has been added to TMBhelper in the TMB_contrib_R directory
+      * Gavin worked on TMBphase using example code from Mollie
          * Phasing within an optimizer
          * Function with normal inputs, passed via “...”, plus two additional arguments, “phase” and “optimizer”
          * Optimizer by default is nlminb
@@ -248,15 +253,16 @@ _Task_
          * Function works, needs testing.
          * https://github.com/gavinfay/TMBphase
          * devtools::install_github(“gavinfay/TMBphase”)
-         * GF tested using thetalogistic example.
+         * Gavin tested using thetalogistic example.
          * Example usage in Roxygen documentation for TMBphase()
          * Not implemented choice of optimizer yet.
-      * Maybe Cole will add TMBmcmc, which would entail moving the MCMC code currently in the TMB package into TMBmcmc.
-      * It would be nice to have an AIC function that works as AIC(fit <- nlminb(mod$par, mod$fn, mod$gr)). See TMBAIC at https://github.com/kaskr/adcomp/wiki/FAQ
-         * THIS has now been added to TMBhelper in the user-contributed directory
-      * It would be nice to have an elem_prod() function.
-* Kasper created a function allowing contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
-   *  Thorson, Kasper, Mollie (testing Friday)
+
+*Contributing C++ code
+   * Kasper created a function `TMB:::install.contrib` which allows contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
+
+_Tasks_
+* It would be nice to have an elem_prod() C++ function.
+* Maybe Cole will add TMBmcmc to TMB_contrib_R, which would entail moving the MCMC code currently in the TMB package into TMBmcmc.
 
 **<a name="groupwebsiteissues">Website issues</a>**
 
@@ -264,7 +270,7 @@ _John Sibert, Johnoel and Mollie._
 
 Revised frontpage text of draft website at http://admb-project-org.admb-foundation.org/.
 
-_Task_
+_Tasks_
 * Add DTU and Coin-R logos (DTU and Coin-R) to website footer.
 * Continue to finalize the website.
 
@@ -288,14 +294,14 @@ See the XSSA code repository at [State-space Stock Assessment with population ex
 
 **<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
-An example presentation of Atomic functions and use of derivatives within the template (during Kasper's presentation)
+An example presentation of Atomic functions and use of derivatives within the template (within Kasper's presentation)
 
 **<a name="groupgradients">Compare gradients</a>**
 
 * Matthew's AD example comparing gradients with ADMB and TMB was double checked.
 * Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the inv_cumd_beta_stable did not produce similar gradients.  It was discovered the inv_cumd_beta_stable function in ADMB was incorrect.  They already have a fix and will merge into the admb master.
 
-**<a name="groupsparse"/>Sparse Detection</a>**
+**<a name="groupsparse"/>Sparseness Detection</a>**
 
 It was noted that there would be advantages to having sparseness detection built into ADMB as it is with TMB.
 
@@ -309,7 +315,7 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 
 **<a name="groupsparse"/>TMB Script</a>**
 
-A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used for non-R folks.
+John Sibert pointed out that it would be unpleasant to have to learn R just to use TMB. A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer while another group led by Anders developed a simple script (see below) to show that TMB can be used by non-R folks.
 
 _Contents of tmbrun.sh_
 
@@ -319,9 +325,9 @@ echo "source(\"script.R\"); runit(\"$1\")" | R --vanilla
 
 **<a name="groupsparse"/>TMB Users</a>**
 
-Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository.
+Created [TMB Users](https://groups.google.com/forum/#!forum/tmb-users) google group so that users can answer each other's questions rather than load up the "issues" on the TMB github repository. As of 22 Sept 2016, it has 18 users.
 
-**<a name="nutsinadmb">Nuts algorithm in ADMB</a>**
+**<a name="nutsinadmb">NUTS algorithm in ADMB</a>**
 
 Cole Monnahan led discussions about the current state and future directions of Hamiltonian Monte Carlo in both TMB and ADMB. This included the prospect of adding Riemannian HMC and "variational inference." Bob Carpenter noted the difficulties with ADVI, but that RHMC is very promising for models up to hundreds of parameters with very difficult posterior geometries. Thus, the short-term goals are to get NUTS with adaptation of the step size and mass matrix in both TMB/ADMB. The longer term would be to get RHMC updates working with NUTS.
 
@@ -337,11 +343,7 @@ _Task_
 
 * Fix sdreport() for singular hessian cases (avoid crash, just output NaN)
 
-* Include an option to suppress warnings from CHOLMOD during optimization
-
-  _Notes_
-
-  Now the warnings are disabled by default. They can be activated by adding
+* Now warnings from CHOLMOD during optimization are disabled by default. They can be activated by adding
 
   ```
   newtonOption(obj,silent=FALSE)
@@ -377,7 +379,7 @@ Elected new board member officers:
 Accomplishments
 ===============
 
-One of the objectives of the workshop is to identify priorites for the projects which include tasks and potential new features.
+One of the objectives of the workshop is to identify priorities for the projects which include tasks and potential new features.
 
 <a name="priorities"/>
 Priorities
@@ -405,7 +407,7 @@ Anders Nielsen urges to keep maintaining more than one tool for automatic differ
 
 <img src="http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-7-force-awakens-r2d2-bb8-600x600.jpeg" width="150px" alt="Collaboration"/>
 
-As the breakout groups has shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
+As the breakout groups have shown, both TMB and ADMB projects (as well as Stan) can benefit from collaboration.
 
 Kasper Kristensen and Anders Nielsen presentation outlines an [Example on joint ADMB/TMB development effort](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/joint.pdf).
 
@@ -418,8 +420,6 @@ Appendix
 Notes
 -----
 
-* Mollie Brooks' breakout group [notes](https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit).
-
 * Gavin Fay's workshop [notes](https://raw.githubusercontent.com/admb-project/June2016-Developers-Workshop/master/notes/GF_notes_20160620.txt).
 
 <a name="participants"/>
@@ -430,24 +430,24 @@ Participants
 |---|---|
 |Dave Fournier|Otter Research|
 |John Sibert|ADMB Project, JIMAR, University of Hawaii|
-|Jim Ianelli||
+|Jim Ianelli|University of Washington|
 |Steve Martell||
-|Anders Nielsen||
-|Hans Skaug||
-|Arni Magnusson||
-|Kasper Kristensen| Developer TMB |
+|Anders Nielsen| Danish Technical University, Developer glmmTMB |
+|Hans Skaug|University of Bergen, Developer glmmTMB |
+|Arni Magnusson|Developer glmmTMB |
+|Kasper Kristensen| Danish Technical University, Developer TMB & glmmTMB |
 |Brad Bell| Developer cppad |
-|Mollie Brooks||
+|Mollie Brooks| University of Zurich, Developer glmmTMB |
 |Matthew Supernaw| Developer atl |
-|Teresa A'mar||
-|Chris Grandin||
-|Casper Berg||
-|Cole Monnahan||
-|Jim Thorson||
+|Teresa A'mar|National Oceanic and Atmospheric Administration|
+|Chris Grandin|Fisheries and Oceans Canada|
+|Casper Berg| Danish Technical University, Developer glmmTMB |
+|Cole Monnahan|University of Washington|
+|Jim Thorson|University of Washington|
 |Bob Carpenter|Stan Project|
 |Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
-|Gavin Fay||
-|Allan Hicks|IPHC|
+|Gavin Fay| University of Massachusetts |
+|Allan Hicks|International Pacific Halibut Commission|
 |Kyle Foreman||
 |Rick Methot||
 |Athol Whitten|Remote participation|
