@@ -298,7 +298,7 @@ An example presentation of Atomic functions and use of derivatives within the te
 **<a name="groupgradients">Compare gradients</a>**
 
 * Matthew's AD example comparing gradients with ADMB and TMB was double checked.
-* Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the inv_cumd_beta_stable did not produce similar gradients.  It was discovered the inv_cumd_beta_stable function in ADMB was incorrect.  They already have a fix and will merge into the admb master.
+* Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the inv_cumd_beta_stable did not produce similar gradients.  It was discovered the inv_cumd_beta_stable function in ADMB was incorrect.  They already have a fix and will merge into the admb master.  A report describing the comparision will be made available. 
 
 **<a name="groupsparse"/>Sparseness Detection</a>**
 
