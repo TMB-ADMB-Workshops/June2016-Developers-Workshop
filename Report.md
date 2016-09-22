@@ -137,13 +137,15 @@ Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-pr
 
 Jim Thorson's presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
-John Sibert's presentation [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
+John Sibert's presentation on approaches to and results of porting at "working" ADMB model and data to TMB. 
+
+* [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
 
 On Thursday, the workshop was devoted to a series of presentations on alternative approaches (e.g., Stan) and activities where ADMB/TMB are being actively used.
 
 David Fournier's presentation [The use of higher order AD to develop a multinomial like M estimator for the analysis of compositonal data with an application to fisheries management models]().
 
-Brad Bell's presentation [cppad_mixed: A C++ Package for Laplace Approximation of Mixed]().
+Brad Bell's presentations [cppad_mixed: A C++ Package for Laplace Approximation of Mixed]() **N/A** and [The cppad_mixed Capture Example and Speed Test](presentations/capture_xam.pdf).
 
 Bob Carpenter's presentation [Stan a Probalistic Programming Language](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/stan-admb-talk-2016.pdf) on Stan implementation and issues.
 
@@ -163,27 +165,29 @@ Breakout group topics were proposed. They were self-organized using a [document]
 
 Below is a list of topics proposed for the breakout groups:
 
-_Topics with links were discussed (details in next section). Those without links could be addressed in the future._
-
 * [ADMB-IDE 11.5](#groupadmbide)
-* cppad_mixed
 * [Instructional videos](#groupvideos)
 * [Nvidia GPU](#groupnvidiagpu)
 * [TMB with GPU](#grouptmbgpu)
-* Non-normal RE (rotational Bayes)
 * [Cross validation methods](#groupvalidation)
-* MCMC (Riemann with Langevin updates)
 * [XSSA demo of Sibert](#groupxssa)
 * glmmTMB Package: an underdispersed Poisson-type distribution could be added; facilitate hurdle models in single function call
 * [Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)](#groupatomic)
-* Debugging demonstration and documentation reference
 * [Discuss getting better sparseness detection in ADMB](#groupsparse)
-* Posfun in TMB
 * [Protocol for contributing code](#groupcontributecode)
 * [Website issues](#groupwebsiteissues)
+* [NUTS algorithm in ADMB](#nutsinadmb)
+
+Remove below
+
+* cppad_mixed
+* Non-normal RE (rotational Bayes)
+* GLMM/TMB Package: another distribution could be added; hurdle model generalized Poisson
+* MCMC (Riemann with Langevin updates)
+* Debugging demonstration and documentation reference
+* Posfun in TMB
 * Rank order -1 problem
 * 3rd order derivatives
-* [NUTS algorithm in ADMB](#nutsinadmb)
 * Get install_github() to do source("install_windows.R") when Windows is detected
 * Non-normal RE (rotational Bayes)
 * Create TMB page on Wikipedia
@@ -287,10 +291,6 @@ _Task_
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
 Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the github repository.
-
-**<a name="groupxssa">XSSA demo of Sibert</a>**
-
-See the XSSA code repository at [State-space Stock Assessment with population exchange](https://github.com/johnrsibert/XSSA).
 
 **<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
@@ -426,29 +426,29 @@ Notes
 Participants
 ------------
 
-|Name|Notes|
-|---|---|
-|Dave Fournier|Otter Research|
-|John Sibert|ADMB Project, JIMAR, University of Hawaii|
-|Jim Ianelli|University of Washington|
-|Steve Martell||
-|Anders Nielsen| Danish Technical University, Developer glmmTMB |
-|Hans Skaug|University of Bergen, Developer glmmTMB |
-|Arni Magnusson|Developer glmmTMB |
-|Kasper Kristensen| Danish Technical University, Developer TMB & glmmTMB |
-|Brad Bell| Developer cppad |
-|Mollie Brooks| University of Zurich, Developer glmmTMB |
-|Matthew Supernaw| Developer atl |
+|Name|Affiliation|Notes|
+|---|---|---|
 |Teresa A'mar|National Oceanic and Atmospheric Administration|
-|Chris Grandin|Fisheries and Oceans Canada|
-|Casper Berg| Danish Technical University, Developer glmmTMB |
-|Cole Monnahan|University of Washington|
-|Jim Thorson|University of Washington|
-|Bob Carpenter|Stan Project|
 |Johnoel Ancheta|ADMB Project, JIMAR, University of Hawaii|
+|Brad Bell|University of Washington|Developer cppad|
+|Casper Berg|Technical University of Denmark|Developer glmmTMB|
+|Mollie Brooks| University of Zurich|Developer glmmTMB|
+|Bob Carpenter|Stan Project||
 |Gavin Fay| University of Massachusetts |
-|Allan Hicks|International Pacific Halibut Commission|
 |Kyle Foreman||
-|Rick Methot||
-|Athol Whitten|Remote participation|
-|Jeff Laake|Remote participation|
+|Dave Fournier|Otter Research||
+|Chris Grandin|Fisheries and Oceans Canada(DFO-MPO)||
+|Allan Hicks|International Pacific Halibut Commission||
+|Jim Ianelli|University of Washington||
+|Kasper Kristensen|Technical University of Denmark|Developer TMB and glmmTMB|
+|Jeff Laake|NOAA|Remote participation|
+|Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)|Developer TMB|
+|Steve Martell|Sea State Incorporated|
+|Rick Methot|NOAA||
+|Cole Monnahan|University of Washington||
+|Anders Nielsen|Technical University of Denmark|Developer glmmTMB|
+|John Sibert|ADMB Project, JIMAR, University of Hawaii|
+|Hans Skaug|University of Bergen|
+|Matthew Supernaw|NOAA|Developer atl|
+|Jim Thorson|University of Washington||
+|Athol Whitten|[Mezo Research](http://mezo.com.au/)|Remote participation|
