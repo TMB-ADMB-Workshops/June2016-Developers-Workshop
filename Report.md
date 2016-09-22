@@ -243,26 +243,25 @@ _Task_
 
 _Thorson, Kasper, Gavin, Mollie_
 
+* Contributing C++ code
+   * Kasper created a function `TMB:::install.contrib` which allows contributed cpp code to be used in a TMB model (see [example](https://github.com/kaskr/example_cpp)).
 * Contributing R functions
    * Kasper created [TMB_contrib_R](https://github.com/kaskr/TMB_contrib_R)
    * Contains subdirectories that can be installed using devtools R package installer
    * Examples include:
       * Jim Thorson added TMBdebug
       * TMBAIC has been added to TMBhelper in the TMB_contrib_R directory
-      * Gavin worked on TMBphase using example code from Mollie
+      * Gavin worked on [TMBphase](https://github.com/gavinfay/TMBphase) using example code from Mollie
          * Phasing within an optimizer
          * Function with normal inputs, passed via “...”, plus two additional arguments, “phase” and “optimizer”
          * Optimizer by default is nlminb
          * phase is a tagged list where missing elements are populated with a vector of 1s, and non-missing elements are integers, and where the optimizer loops through values of phase while progressively changing map to turn on parameters
          * Function works, needs testing.
-         * https://github.com/gavinfay/TMBphase
          * devtools::install_github(“gavinfay/TMBphase”)
          * Gavin tested using thetalogistic example.
          * Example usage in Roxygen documentation for TMBphase()
          * Not implemented choice of optimizer yet.
 
-*Contributing C++ code
-   * Kasper created a function `TMB:::install.contrib` which allows contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
 
 _Tasks_
 * It would be nice to have an elem_prod() C++ function.
@@ -439,14 +438,14 @@ Participants
 |Allan Hicks|International Pacific Halibut Commission||
 |Jim Ianelli|University of Washington||
 |Kasper Kristensen|Technical University of Denmark|Developer TMB and glmmTMB|
-|Jeff Laake|NOAA|Remote participation|
+|Jeff Laake|National Oceanic and Atmospheric Administration|Remote participation|
 |Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)|Developer TMB|
 |Steve Martell|Sea State Incorporated|
-|Rick Methot|NOAA||
+|Rick Methot|National Oceanic and Atmospheric Administration||
 |Cole Monnahan|University of Washington||
 |Anders Nielsen|Technical University of Denmark|Developer glmmTMB|
 |John Sibert|ADMB Project, JIMAR, University of Hawaii|
 |Hans Skaug|University of Bergen|
-|Matthew Supernaw|NOAA|Developer atl|
+|Matthew Supernaw|National Oceanic and Atmospheric Administration|Developer atl|
 |Jim Thorson|University of Washington||
 |Athol Whitten|[Mezo Research](http://mezo.com.au/)|Remote participation|
