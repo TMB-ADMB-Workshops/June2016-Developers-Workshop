@@ -243,6 +243,8 @@ _Task_
 
 _Thorson, Kasper, Gavin, Mollie_
 
+* Contributing C++ code
+   * Kasper created a function `TMB:::install.contrib` which allows contributed cpp code to be used in a TMB model (see [example](https://github.com/kaskr/example_cpp)).
 * Contributing R functions
    * Kasper created [TMB_contrib_R](https://github.com/kaskr/TMB_contrib_R)
    * Contains subdirectories that can be installed using devtools R package installer
@@ -261,8 +263,6 @@ _Thorson, Kasper, Gavin, Mollie_
          * Example usage in Roxygen documentation for TMBphase()
          * Not implemented choice of optimizer yet.
 
-*Contributing C++ code
-   * Kasper created a function `TMB:::install.contrib` which allows contributed cpp code to be used in a TMB model. See example https://github.com/kaskr/example_cpp
 
 _Tasks_
 * It would be nice to have an elem_prod() C++ function.
