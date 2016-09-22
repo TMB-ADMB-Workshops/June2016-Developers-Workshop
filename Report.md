@@ -289,7 +289,7 @@ _Task_
 
 **<a name="grouptmbgpu">TMB with GPU</a>**
 
-Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the github repository.
+Gavin Fay's experience using TMB with GPU card is [available](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/blob/master/presentations/tmb_with_gpus/TMB_with_GPU_Fay_20160624.pdf) on the github repository.  Also, see [GPU timings](https://github.com/TMB-ADMB-Workshops/June2016-Developers-Workshop/issues/6).
 
 **<a name="groupatomic">Atomic functions and use of derivatives within the template (e.g., newton raphson's within the template)</a>**
 
