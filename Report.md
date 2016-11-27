@@ -29,7 +29,7 @@ Contents
 Description
 ===========
 
-This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers who were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges.
+This report summarises the events of the 6th ADMB Developer's Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers who were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges.
 
 The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project.
 
@@ -252,11 +252,11 @@ _Thorson, Kasper, Gavin, Mollie_
       * TMBAIC has been added to TMBhelper in the TMB_contrib_R directory
       * Gavin worked on [TMBphase](https://github.com/gavinfay/TMBphase) using example code from Mollie
          * Phasing within an optimizer
-         * Function with normal inputs, passed via “...”, plus two additional arguments, “phase” and “optimizer”
+         * Function with normal inputs, passed via "...", plus two additional arguments, "phase" and "optimizer"
          * Optimizer by default is nlminb
          * phase is a tagged list where missing elements are populated with a vector of 1s, and non-missing elements are integers, and where the optimizer loops through values of phase while progressively changing map to turn on parameters
          * Function works, needs testing.
-         * devtools::install_github(“gavinfay/TMBphase”)
+         * devtools::install_github("gavinfay/TMBphase")
          * Gavin tested using thetalogistic example.
          * Example usage in Roxygen documentation for TMBphase()
          * Not implemented choice of optimizer yet.
@@ -350,7 +350,7 @@ _Task_
   newtonOption(obj,silent=FALSE)
   ```
 
-  However, you will know that they would have been generated if “ustep” is less than one.
+  However, you will know that they would have been generated if "ustep" is less than one.
 
 <a name="admbfoundation"/>
 ADMB Foundation Meeting
@@ -438,12 +438,12 @@ Participants
 |Gavin Fay| University of Massachusetts |
 |Kyle Foreman||
 |Dave Fournier|Otter Research||
-|Chris Grandin|Fisheries and Oceans Canada(DFO-MPO)||
+|Chris Grandin|Fisheries and Oceans Canada (DFO-MPO)||
 |Allan Hicks|International Pacific Halibut Commission||
 |Jim Ianelli|University of Washington||
 |Kasper Kristensen|Technical University of Denmark|Developer TMB and glmmTMB|
 |Jeff Laake|National Oceanic and Atmospheric Administration|Remote participation|
-|Arni Magnusson|International Council for the Exploration of the Sea(ICEAS)|Developer TMB|
+|Arni Magnusson|International Council for the Exploration of the Sea (ICES)|Developer TMB|
 |Steve Martell|Sea State Incorporated|
 |Rick Methot|National Oceanic and Atmospheric Administration||
 |Cole Monnahan|University of Washington||
