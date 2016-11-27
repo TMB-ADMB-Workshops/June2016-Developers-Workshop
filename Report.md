@@ -29,7 +29,7 @@ Contents
 Description
 ===========
 
-This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers who were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges. 
+This report summarises the events of the 6th ADMB Developer’s Workshop, a meeting held at the University of Washington School of Aquatic and Fisheries Sciences, Seattle Washington. The meeting was attended by many ADMB and TMB core developers who were joined by invited European and American experts. These experts introduced their software development experiences in similar types of challenges.
 
 The meeting was held in the typical informal style, allowing open group discussions and demonstrations of new features, possible improvements, and current issues. Meeting participants spent considerable time working in sub-groups, each of which tackled a related set of priority issues for the ADMB project.
 
@@ -137,7 +137,7 @@ Arni Magnusson's presentations [AD Model Builder IDE](https://github.com/admb-pr
 
 Jim Thorson's presentation [Advancements in spatio-temporal models in TMB](2016-06-20--advancements-in-spatio-temporal-models.pptx).
 
-John Sibert's presentation on approaches to and results of porting at "working" ADMB model and data to TMB. 
+John Sibert's presentation on approaches to and results of porting at "working" ADMB model and data to TMB.
 
 * [A Newbie Ports ADMB to TMB](https://github.com/admb-project/June2016-Developers-Workshop/blob/master/presentations/newbie_slides.pdf).
 
@@ -227,11 +227,11 @@ Breakout Groups
 
 Each group presented a brief report on the group's effort.
 
-**<a name="groupadmbide">ADMB-IDE</a>** 
+**<a name="groupadmbide">ADMB-IDE</a>**
 
 _Arni, Chris Grandin and Johnoel_
 
-* Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).  
+* Arni provided the [dependancy list](https://raw.githubusercontent.com/admb-project/admb/master/contrib/ide/make.txt).
 * Started configuring the ide build procedure into the automated builds ([buildbot](http://buildbot.admb-project.org/)).
 
 _Task_
@@ -279,7 +279,7 @@ _Tasks_
 **<a name="groupnvidiagpu">Nvidia GPU</a>**
 
 * Parallelization: Dave has open CL version of the function minimizer that could be used as an example of how the GPU approach might be beneficial.
-* Successfully configured the ADMB linux server for Nvidia GPU development support.  
+* Successfully configured the ADMB linux server for Nvidia GPU development support.
 Kasper tested and ran R numerical functions with the GPU.  The results showed speed improvements compared to single core cpu runs.
 
 _Task_
@@ -302,7 +302,7 @@ An example presentation of Atomic functions and use of derivatives within the te
 **<a name="groupgradients">Compare gradients</a>**
 
 * Matthew's AD example comparing gradients with ADMB and TMB was double checked.
-* Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the inv_cumd_beta_stable did not produce similar gradients.  It was discovered the inv_cumd_beta_stable function in ADMB was incorrect.  They already have a fix and will merge into the admb master.  A report describing the comparision will be made available. 
+* Anders Nielsen has done gradients comparison checks for TMB and ADMB using the examples.  They will be releasing a paper that details the results.  For most of the examples, TMB and ADMB are the same.  However, the inv_cumd_beta_stable did not produce similar gradients.  It was discovered the inv_cumd_beta_stable function in ADMB was incorrect.  They already have a fix and will merge into the admb master.  A report describing the comparision will be made available.
 
 **<a name="groupsparse"/>Sparseness Detection</a>**
 
@@ -318,9 +318,9 @@ The topic of model selection approaches (e.g. Cross validation methods, Conditio
 
 **<a name="groupsparse"/>TMB Script</a>**
 
-John Sibert pointed out that it would be unpleasant to have to learn R just to use TMB. A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer.  
+John Sibert pointed out that it would be unpleasant to have to learn R just to use TMB. A sub-group endeavored to run cppad_mixed, using cppad without the TMB layer.
 
-Another group led by Jim Ianelli and joint by Anders Nielsen developed a setup based on a simple R-script and shell script (both are intended to be unchanged), which allow the user to run models without ever writing a single line in R. The user need to supply three files: 1) A cpp implementation of the negative log likelihood for the model (.cpp), 2) a data file (.dat), and 3) a parameter initialization file (.pin). The data file and the initialization file names the data objects and the parameters, and the cpp file must match. The keyword RANDOM in the initialization file specified if a given parameter (vector) is to be treated as a random effect. It is important to note that in this setup R is still used, but just made invisible to the user. The code for this setup (script.R and tmbrun) along with two working examples (thetalog and lm) can be found at the github page:     
+Another group led by Jim Ianelli and joint by Anders Nielsen developed a setup based on a simple R-script and shell script (both are intended to be unchanged), which allow the user to run models without ever writing a single line in R. The user need to supply three files: 1) A cpp implementation of the negative log likelihood for the model (.cpp), 2) a data file (.dat), and 3) a parameter initialization file (.pin). The data file and the initialization file names the data objects and the parameters, and the cpp file must match. The keyword RANDOM in the initialization file specified if a given parameter (vector) is to be treated as a random effect. It is important to note that in this setup R is still used, but just made invisible to the user. The code for this setup (script.R and tmbrun) along with two working examples (thetalog and lm) can be found at the github page:
 
 https://github.com/fishfollower/hideR
 
