@@ -1,4 +1,4 @@
-###Developers Workshop 2016
+### Developers Workshop 2016
 
 *June 20 - 24, 2016*
 
@@ -8,16 +8,16 @@
 
 Contact Jim.Ianelli@noaa.gov for registration and questions.
 
-##Important notice for travellers
+## Important notice for travellers
 Changes in University of Hawaii grant administration procedures have created additional hurdles for reimbursement of non-UH employee travel expenses. Please contact Dodie Lau lau@hawaii.edu __before__ purchasing air tickets or reserving hotel accomodations; __the sooner the better.__
 
-##Objectives
+## Objectives
 * Plan development of instructional videos
 * Coordination of TMB and ADMB Projects
 * Developments in MCMC implementations
 * Foundation Meeting
 
-##Remote access
+## Remote access
 
 * Monday https://global.gotomeeting.com/join/772104533
 * Tuesday https://global.gotomeeting.com/join/936038613
@@ -27,15 +27,15 @@ Changes in University of Hawaii grant administration procedures have created add
 * Friday https://global.gotomeeting.com/join/173447973
 * Friday afternoon https://global.gotomeeting.com/join/​110768581
 
-##Breakout groups (Google Doc)
+## Breakout groups (Google Doc)
 
 https://docs.google.com/document/d/1b0jWcGYNh-jCcJdgx7m8DehWu44AS4jhNbi-205yTiY/edit
 
-##Wordpress site
+## Wordpress site
 
 http://admb-project-org.admb-foundation.org/
 
-##Schedule
+## Schedule
 
 _Monday, June 20_ __Opening and Instructional Videos__
 
@@ -118,7 +118,7 @@ _Friday, June 24_ __Foundation Meeting and Conclusion__
 |4:00PM|End|
 
 
-##Participants
+## Participants
 |Name|Notes|
 |---|---|
 |Dave Fournier||
