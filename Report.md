@@ -368,7 +368,7 @@ Voted on new members:
 * Kasper Kristensen
 * James Thorson
 * Cole Monnahan
-* Gavin Faye
+* Gavin Fay
 
 Elected new board member officers:
 
